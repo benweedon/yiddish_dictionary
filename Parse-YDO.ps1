@@ -17,6 +17,11 @@ foreach ($tr in $html.ChildNodes[0].ChildNodes) {
     $pos = $tr.ChildNodes[3].InnerText.Trim()
     $yiddish = $tr.ChildNodes[4].InnerText.Trim()
 
+    $english = $english.Split(',;')
+    foreach ($i in 0..($english.Length-1)) {
+        $english[$i] = $english[$i].Trim()
+    }
+
     $pronunciation = $pronunciation.Split('/')
     foreach ($i in 0..($pronunciation.Length-1)) {
         $pronunciation[$i] = $pronunciation[$i].Trim()
