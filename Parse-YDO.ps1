@@ -7,11 +7,10 @@ $dict = @{}
 $html = [xml](Get-Content (Resolve-Path $InputFile) -Encoding UTF8)
 foreach ($tr in $html.ChildNodes[0].ChildNodes) {
     $english = $tr.ChildNodes[0].InnerText.Trim()
-    $roman = $tr.ChildNodes[1].InnerText.Trim()
     $pronunciation = $tr.ChildNodes[2].InnerText.Trim()
     $pos = $tr.ChildNodes[3].InnerText.Trim()
     $yiddish = $tr.ChildNodes[4].InnerText.Trim()
-    $dict[$yiddish] = @{english=$english; roman=$roman; pronunciation=$pronunciation; pos=$pos}
+    $dict[$yiddish] = @{english=$english; pronunciation=$pronunciation; pos=$pos}
 }
 
 Write-Output "" > $OutputFile
