@@ -1,3 +1,4 @@
+from collections import OrderedDict
 import json
 import re
 import sys
@@ -20,6 +21,13 @@ def replace_combining_chars(s):
     s = s.replace('ת\u05BC', 'תּ')
     return s
 
+def combine_entries(entry1, entry2):
+    newEntry = {}
+    newEntry['english'] = list(OrderedDict.fromkeys(entry1['english'] + entry2['english']))
+    newEntry['pronunciation'] = list(OrderedDict.fromkeys(entry1['pronunciation'] + entry2['pronunciation']))
+    newEntry['pos'] = list(OrderedDict.fromkeys(entry1['pos'] + entry2['pos']))
+    return newEntry
+
 if __name__ == '__main__':
     # load the json into an object
     j = json.load(open(sys.argv[1], encoding='utf-8'))
@@ -29,6 +37,9 @@ if __name__ == '__main__':
         new_yiddish = replace_combining_chars(yiddish)
         if new_yiddish not in j:
             j[new_yiddish] = j[yiddish]
+            j.pop(yiddish, None)
+        elif new_yiddish != yiddish:
+            j[new_yiddish] = combine_entries(j[yiddish], j[new_yiddish])
             j.pop(yiddish, None)
 
     # remove the empty key
