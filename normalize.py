@@ -20,11 +20,6 @@ def replace_combining_chars(s):
     s = s.replace('ת\u05BC', 'תּ')
     return s
 
-def remove_punctuation(s):
-    punctuation_regex = r'[`~!@#$%^&*()_+={}[\]\\|;:\'"<>,./?\u2000-\u206F\u2E00-\u2E7F]+'
-    s = re.sub(punctuation_regex, '', s)
-    return s.strip()
-
 if __name__ == '__main__':
     # load the json into an object
     j = json.load(open(sys.argv[1], encoding='utf-8'))
@@ -32,7 +27,6 @@ if __name__ == '__main__':
     # normalize yiddish strings
     for yiddish in j.copy():
         new_yiddish = replace_combining_chars(yiddish)
-        new_yiddish = remove_punctuation(new_yiddish)
         if new_yiddish not in j or len(new_yiddish) == 0:
             j[new_yiddish] = j[yiddish]
             j.pop(yiddish, None)
