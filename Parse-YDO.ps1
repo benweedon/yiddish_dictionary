@@ -12,8 +12,8 @@ function Remove-Punctuation($s) {
 function Combine-Entries($entry1, $entry2) {
     $newEntry = @{}
     $newEntry['eng'] = $entry1['eng'] + $entry2['eng'] | Select-Object -Unique
-    $newEntry['pronunciation'] = $entry1['pronunciation'] + $entry2['pronunciation'] | Select-Object -Unique
-    $newEntry['pos'] = $entry1['pos'] + $entry2['pos'] | Select-Object -Unique
+    $newEntry['_pro'] = $entry1['_pro'] + $entry2['_pro'] | Select-Object -Unique
+    $newEntry['_pos'] = $entry1['_pos'] + $entry2['_pos'] | Select-Object -Unique
     return $newEntry
 }
 
@@ -39,7 +39,7 @@ foreach ($tr in $html.ChildNodes[0].ChildNodes) {
 
     $yiddish = Remove-Punctuation $yiddish
 
-    $entry = @{eng=$english; pronunciation=$pronunciation; pos=$pos}
+    $entry = @{eng=$english; _pro=$pronunciation; _pos=$pos}
     if (!$dict.ContainsKey($yiddish)) {
         $dict[$yiddish] = $entry
     } else {

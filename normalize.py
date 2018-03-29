@@ -24,8 +24,8 @@ def replace_combining_chars(s):
 def combine_entries(entry1, entry2):
     newEntry = {}
     newEntry['eng'] = list(OrderedDict.fromkeys(entry1['eng'] + entry2['eng']))
-    newEntry['pronunciation'] = list(OrderedDict.fromkeys(entry1['pronunciation'] + entry2['pronunciation']))
-    newEntry['pos'] = list(OrderedDict.fromkeys(entry1['pos'] + entry2['pos']))
+    newEntry['_pro'] = list(OrderedDict.fromkeys(entry1['_pro'] + entry2['_pro']))
+    newEntry['_pos'] = list(OrderedDict.fromkeys(entry1['_pos'] + entry2['_pos']))
     return newEntry
 
 if __name__ == '__main__':
