@@ -11,7 +11,10 @@ def replace_combining_chars(s):
     s = s.replace('ו\u05BC', 'וּ')
     s = s.replace('ו\u05B9', 'וֹ')
     s = s.replace('ו\u05BA', 'וֹ')
+    s = s.replace('וו', 'װ');
+    s = s.replace('וי', 'ױ');
     s = s.replace('י\u05B4', 'יִ')
+    s = s.replace('יי', 'ײ');
     s = s.replace('יי\u05B7', 'ײַ')
     s = s.replace('ײ\u05B7', 'ײַ')
     s = s.replace('כ\u05BC', 'כּ')
