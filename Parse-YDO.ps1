@@ -17,6 +17,11 @@ foreach ($tr in $html.ChildNodes[0].ChildNodes) {
     $pos = $tr.ChildNodes[3].InnerText.Trim()
     $yiddish = $tr.ChildNodes[4].InnerText.Trim()
 
+    $pronunciation = $pronunciation.Split('/')
+    foreach ($i in 0..($pronunciation.Length-1)) {
+        $pronunciation[$i] = $pronunciation[$i].Trim()
+    }
+
     $yiddish = Remove-Punctuation $yiddish
 
     if (!$dict.ContainsKey($yiddish)) {
