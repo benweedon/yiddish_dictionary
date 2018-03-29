@@ -27,6 +27,8 @@ foreach ($tr in $html.ChildNodes[0].ChildNodes) {
         $pronunciation[$i] = $pronunciation[$i].Trim()
     }
 
+    $pos = @($pos)
+
     $yiddish = Remove-Punctuation $yiddish
 
     if (!$dict.ContainsKey($yiddish)) {
