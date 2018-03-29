@@ -27,7 +27,7 @@ if __name__ == '__main__':
     # normalize yiddish strings
     for yiddish in j.copy():
         new_yiddish = replace_combining_chars(yiddish)
-        if new_yiddish not in j or len(new_yiddish) == 0:
+        if new_yiddish not in j:
             j[new_yiddish] = j[yiddish]
             j.pop(yiddish, None)
 
