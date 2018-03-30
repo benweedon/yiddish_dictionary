@@ -5,9 +5,9 @@
 
 function Combine-Entries($entry1, $entry2) {
     $newEntry = @{}
-    $newEntry['eng'] = $entry1['eng'] + $entry2['eng'] | Select-Object -Unique
-    $newEntry['_pro'] = $entry1['_pro'] + $entry2['_pro'] | Select-Object -Unique
-    $newEntry['_pos'] = $entry1['_pos'] + $entry2['_pos'] | Select-Object -Unique
+    $newEntry['eng'] = @($entry1['eng'] + $entry2['eng'] | Select-Object -Unique)
+    $newEntry['_pro'] = @($entry1['_pro'] + $entry2['_pro'] | Select-Object -Unique)
+    $newEntry['_pos'] = @($entry1['_pos'] + $entry2['_pos'] | Select-Object -Unique)
     return $newEntry
 }
 
