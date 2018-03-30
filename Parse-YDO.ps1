@@ -3,12 +3,6 @@
     [String]$OutputFile
 )
 
-function Remove-Punctuation($s) {
-    $punctuation_regex = '[`~!@#$%^&*()_+={}[\]\\|;:''"<>,./?\u2000-\u206F\u2E00-\u2E7F]+'
-    $s = $s -replace $punctuation_regex,''
-    return $s.Trim()
-}
-
 function Combine-Entries($entry1, $entry2) {
     $newEntry = @{}
     $newEntry['eng'] = $entry1['eng'] + $entry2['eng'] | Select-Object -Unique
@@ -36,8 +30,6 @@ foreach ($tr in $html.ChildNodes[0].ChildNodes) {
     }
 
     $pos = @($pos)
-
-    $yiddish = Remove-Punctuation $yiddish
 
     $entry = @{eng=$english; _pro=$pronunciation; _pos=$pos}
     if (!$dict.ContainsKey($yiddish)) {
