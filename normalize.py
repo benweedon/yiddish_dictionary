@@ -33,20 +33,20 @@ def combine_entries(entry1, entry2):
 
 if __name__ == '__main__':
     # load the json into an object
-    j = json.load(open(sys.argv[1], encoding='utf-8'))
+    d = json.load(open(sys.argv[1], encoding='utf-8'))
 
     # normalize yiddish strings
-    for yiddish in j.copy():
+    for yiddish in d.copy():
         new_yiddish = replace_combining_chars(yiddish)
-        if new_yiddish not in j:
-            j[new_yiddish] = j[yiddish]
-            j.pop(yiddish, None)
+        if new_yiddish not in d:
+            d[new_yiddish] = d[yiddish]
+            d.pop(yiddish, None)
         elif new_yiddish != yiddish:
-            j[new_yiddish] = combine_entries(j[yiddish], j[new_yiddish])
-            j.pop(yiddish, None)
+            d[new_yiddish] = combine_entries(d[yiddish], d[new_yiddish])
+            d.pop(yiddish, None)
 
     # remove the empty key
-    j.pop('', None)
+    d.pop('', None)
 
     # output the json back to a file
-    json.dump(j, open(sys.argv[2], 'w', encoding='utf-8'), ensure_ascii=False, indent=4, sort_keys=True)
+    json.dump(d, open(sys.argv[2], 'w', encoding='utf-8'), ensure_ascii=False, indent=4, sort_keys=True)
