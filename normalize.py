@@ -1,7 +1,8 @@
-from collections import OrderedDict
 import json
 import re
 import sys
+
+from utils import combine_entries
 
 def replace_combining_chars(s):
     s = s.replace('א\u05B7', 'אַ')
@@ -23,13 +24,6 @@ def replace_combining_chars(s):
     s = s.replace('ש\u05C2', 'שׂ')
     s = s.replace('ת\u05BC', 'תּ')
     return s
-
-def combine_entries(entry1, entry2):
-    newEntry = {}
-    newEntry['eng'] = list(OrderedDict.fromkeys(entry1['eng'] + entry2['eng']))
-    newEntry['_pro'] = list(OrderedDict.fromkeys(entry1['_pro'] + entry2['_pro']))
-    newEntry['_pos'] = list(OrderedDict.fromkeys(entry1['_pos'] + entry2['_pos']))
-    return newEntry
 
 if __name__ == '__main__':
     # load the json into an object

@@ -1,6 +1,8 @@
 import json
 import sys
 
+from utils import combine_entries
+
 if __name__ == '__main__':
     d1 = json.load(open(sys.argv[1], encoding='utf-8'))
     d2 = json.load(open(sys.argv[2], encoding='utf-8'))
