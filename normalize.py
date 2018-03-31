@@ -53,26 +53,23 @@ def normalize(input, output):
     d = json.load(input)
 
     # normalize yiddish strings
-    for yiddish in d.copy():
+    new_d = {}
+    for yiddish in d:
         new_yiddish = replace_combining_chars(yiddish)
         new_entry = replace_pos(d[yiddish])
-        if new_yiddish not in d:
-            d[new_yiddish] = new_entry
-            d.pop(yiddish, None)
-        elif new_yiddish != yiddish:
-            d[new_yiddish] = utils.combine_entries(new_entry, d[new_yiddish])
-            d.pop(yiddish, None)
+        if new_yiddish not in new_d:
+            new_d[new_yiddish] = new_entry
         else:
-            d[new_yiddish] = new_entry
+            new_d[new_yiddish] = utils.combine_entries(new_entry, new_d[new_yiddish])
 
     # remove the empty key
-    d.pop('', None)
+    new_d.pop('', None)
 
     # sort the dictionary
-    d = OrderedDict(sorted(d.items(), key=lambda i: utils.sort_yiddish(i[0])))
+    new_d = OrderedDict(sorted(new_d.items(), key=lambda i: utils.sort_yiddish(i[0])))
 
     # output the json
-    json.dump(d, output, ensure_ascii=False, indent=4)
+    json.dump(new_d, output, ensure_ascii=False, indent=4)
 
 if __name__ == '__main__':
     with open(sys.argv[1], encoding='utf-8') as input, open(sys.argv[2], 'w', encoding='utf-8') as output:
