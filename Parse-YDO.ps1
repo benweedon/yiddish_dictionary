@@ -19,17 +19,29 @@ foreach ($tr in $html.ChildNodes[0].ChildNodes) {
     $pos = $tr.ChildNodes[3].InnerText.Trim()
     $yiddish = $tr.ChildNodes[4].InnerText.Trim()
 
-    $english = $english.Split(',;')
-    foreach ($i in 0..($english.Length-1)) {
-        $english[$i] = $english[$i].Trim()
+    if ($english -eq '') {
+        $english = @()
+    } else {
+        $english = $english.Split(',;')
+        foreach ($i in 0..($english.Length-1)) {
+            $english[$i] = $english[$i].Trim()
+        }
     }
 
-    $pronunciation = $pronunciation.Split('/')
-    foreach ($i in 0..($pronunciation.Length-1)) {
-        $pronunciation[$i] = $pronunciation[$i].Trim()
+    if ($pronunciation -eq '') {
+        $pronunciation = @()
+    } else {
+        $pronunciation = $pronunciation.Split('/')
+        foreach ($i in 0..($pronunciation.Length-1)) {
+            $pronunciation[$i] = $pronunciation[$i].Trim()
+        }
     }
 
-    $pos = @($pos)
+    if ($pos -eq '') {
+        $pos = @()
+    } else {
+        $pos = @($pos)
+    }
 
     $entry = @{eng=$english; _pro=$pronunciation; _pos=$pos}
     if (!$dict.ContainsKey($yiddish)) {
