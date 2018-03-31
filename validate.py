@@ -44,7 +44,11 @@ if __name__ == '__main__':
         # check that the file is normalized
         normalize(f, output)
         f.seek(0)
-        if output.getvalue() != f.read():
+        fileContents = f.read()
+        # strip trailing newlines
+        if fileContents[-1] == '\n':
+            fileContents = fileContents[:-1]
+        if output.getvalue() != fileContents:
             fail('The file isn\'t normalized. Run normalize.py and try again!')
 
         # perform all other validation
