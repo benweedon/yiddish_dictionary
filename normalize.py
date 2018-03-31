@@ -80,10 +80,9 @@ def sort_yiddish(yiddish):
             key += char
     return key
 
-if __name__ == '__main__':
+def normalize(input, output):
     # load the json into an object
-    with open(sys.argv[1], encoding='utf-8') as f:
-        d = json.load(f)
+    d = json.load(input)
 
     # normalize yiddish strings
     for yiddish in d.copy():
@@ -101,6 +100,9 @@ if __name__ == '__main__':
     # sort the dictionary
     d = OrderedDict(sorted(d.items(), key=lambda i: sort_yiddish(i[0])))
 
-    # output the json back to a file
-    with open(sys.argv[2], 'w', encoding='utf-8') as f:
-        json.dump(d, f, ensure_ascii=False, indent=4)
+    # output the json
+    json.dump(d, output, ensure_ascii=False, indent=4)
+
+if __name__ == '__main__':
+    with open(sys.argv[1], encoding='utf-8') as input, open(sys.argv[2], 'w', encoding='utf-8') as output:
+        normalize(input, output)
