@@ -9,10 +9,9 @@ def fail_validation():
 
 if __name__ == '__main__':
     output = io.StringIO()
-    with open(sys.argv[1], encoding='utf-8') as input:
-        normalize(input, output)
-
     with open(sys.argv[1], encoding='utf-8') as f:
+        normalize(f, output)
+        f.seek(0)
         if output.getvalue() != f.read():
             print('The file isn\'t normalized. Run normalize.py and try again!', file=sys.stderr)
             fail_validation()
