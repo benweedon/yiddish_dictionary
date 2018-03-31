@@ -1,4 +1,5 @@
 from collections import OrderedDict
+import io
 import json
 import re
 import sys
@@ -75,5 +76,12 @@ def normalize(input, output):
     json.dump(new_d, output, ensure_ascii=False, indent=4)
 
 if __name__ == '__main__':
-    with open(sys.argv[1], encoding='utf-8') as input, open(sys.argv[2], 'w', encoding='utf-8') as output:
+    output = io.StringIO()
+    with open(sys.argv[1], encoding='utf-8') as input:
         normalize(input, output)
+    if len(sys.argv) > 2:
+        out_filename = sys.argv[2]
+    else:
+        out_filename = sys.argv[1]
+    with open(out_filename, 'w', encoding='utf-8') as out_file:
+        out_file.write(output.getvalue())
