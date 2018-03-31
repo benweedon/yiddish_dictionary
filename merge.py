@@ -4,8 +4,9 @@ import sys
 from utils import combine_entries
 
 if __name__ == '__main__':
-    d1 = json.load(open(sys.argv[1], encoding='utf-8'))
-    d2 = json.load(open(sys.argv[2], encoding='utf-8'))
+    with open(sys.argv[1], encoding='utf-8') as f1, open(sys.argv[2], encoding='utf-8') as f2:
+        d1 = json.load(f1)
+        d2 = json.load(f2)
 
     new_dict = d1
     for yiddish in d2:
@@ -14,4 +15,5 @@ if __name__ == '__main__':
         else:
             new_dict[yiddish] = combine_entries(d2[yiddish], new_dict[yiddish])
 
-    json.dump(new_dict, open(sys.argv[3], 'w', encoding='utf-8'), ensure_ascii=False, indent=4, sort_keys=True)
+    with open(sys.argv[3], 'w', encoding='utf-8') as f:
+        json.dump(new_dict, f, ensure_ascii=False, indent=4, sort_keys=True)

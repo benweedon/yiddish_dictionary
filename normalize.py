@@ -27,7 +27,8 @@ def replace_combining_chars(s):
 
 if __name__ == '__main__':
     # load the json into an object
-    d = json.load(open(sys.argv[1], encoding='utf-8'))
+    with open(sys.argv[1], encoding='utf-8') as f:
+        d = json.load(f)
 
     # normalize yiddish strings
     for yiddish in d.copy():
@@ -43,4 +44,5 @@ if __name__ == '__main__':
     d.pop('', None)
 
     # output the json back to a file
-    json.dump(d, open(sys.argv[2], 'w', encoding='utf-8'), ensure_ascii=False, indent=4, sort_keys=True)
+    with open(sys.argv[2], 'w', encoding='utf-8') as f:
+        json.dump(d, f, ensure_ascii=False, indent=4, sort_keys=True)
