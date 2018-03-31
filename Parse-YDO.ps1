@@ -28,6 +28,9 @@ foreach ($tr in $html.ChildNodes[0].ChildNodes) {
         }
     }
 
+    if ($pronunciation -eq '∙') {
+        $pronunciation = ''
+    }
     if ($pronunciation -eq '') {
         $pronunciation = @()
     } else {
