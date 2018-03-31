@@ -48,6 +48,9 @@ def replace_pos(entry):
         new_entry['_pos'].append(new_pos)
     return new_entry
 
+def order_entry(entry):
+    return OrderedDict(sorted(entry.items(), key=lambda i: i[0]))
+
 def normalize(input, output):
     # load the json into an object
     d = json.load(input)
@@ -58,9 +61,9 @@ def normalize(input, output):
         new_yiddish = replace_combining_chars(yiddish)
         new_entry = replace_pos(d[yiddish])
         if new_yiddish not in new_d:
-            new_d[new_yiddish] = new_entry
+            new_d[new_yiddish] = order_entry(new_entry)
         else:
-            new_d[new_yiddish] = utils.combine_entries(new_entry, new_d[new_yiddish])
+            new_d[new_yiddish] = order_entry(utils.combine_entries(new_entry, new_d[new_yiddish]))
 
     # remove the empty key
     new_d.pop('', None)
