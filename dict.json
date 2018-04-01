@@ -28437,6 +28437,15 @@
             "seventeenth"
         ]
     },
+    "זיגזאַג": {
+        "_pos": [
+            "m"
+        ],
+        "_pro": [],
+        "eng": [
+            "zigzag"
+        ]
+    },
     "זיגל": {
         "_pos": [
             "(m./n.)"
@@ -49667,6 +49676,28 @@
         "eng": [
             "lottery",
             "drawing (for a prize)"
+        ]
+    },
+    "ציוניזם": {
+        "_pos": [
+            "m"
+        ],
+        "_pro": [
+            "tsee'·en·iz·m"
+        ],
+        "eng": [
+            "Zionism"
+        ]
+    },
+    "ציוניסט": {
+        "_pos": [
+            "m"
+        ],
+        "_pro": [
+            "tsee'∙en∙ist"
+        ],
+        "eng": [
+            "Zionist"
         ]
     },
     "ציוניסטיש": {
