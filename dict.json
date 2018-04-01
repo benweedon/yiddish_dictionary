@@ -1699,17 +1699,17 @@
     },
     "אױס": {
         "_pos": [
-            "adv",
-            "adj"
+            "adj",
+            "adv"
         ],
         "_pro": [
             "oys",
             "os"
         ],
         "eng": [
+            "over",
             "no more",
-            "through",
-            "over"
+            "through"
         ]
     },
     "אױסבאַהאַלטן": {
@@ -3239,6 +3239,16 @@
             "call up (troops)"
         ]
     },
+    "אױפֿרײַסן": {
+        "_pos": [
+            "(v.)"
+        ],
+        "_pro": [],
+        "eng": [
+            "tear open",
+            "pry open"
+        ]
+    },
     "אױפֿשטאַנד": {
         "_pos": [
             "m"
@@ -3302,22 +3312,22 @@
     },
     "אױף": {
         "_pos": [
-            "(adj. predicate)",
-            "(prep.)"
+            "(prep.)",
+            "(adj. predicate)"
         ],
         "_pro": [
             "af",
             "oyf"
         ],
         "eng": [
-            "awake (up)",
             "on",
             "upon",
             "in (a language)",
             "at (occasion)",
             "by (unit",
             "multiplication: for (a time",
-            "a purpose)"
+            "a purpose)",
+            "awake (up)"
         ]
     },
     "אױף אײביק": {
@@ -3794,6 +3804,16 @@
         "eng": [
             "alter",
             "revamp"
+        ]
+    },
+    "איבערנעכטיקן": {
+        "_pos": [
+            "(v.)"
+        ],
+        "_pro": [],
+        "eng": [
+            "stay overnight",
+            "spend the night"
         ]
     },
     "איבערן": {
@@ -7602,6 +7622,17 @@
             "office (position)"
         ]
     },
+    "אַמטירן": {
+        "_pos": [
+            "(v.)"
+        ],
+        "_pro": [
+            "am∙teer'∙n"
+        ],
+        "eng": [
+            "serve (in office)"
+        ]
+    },
     "אַמסטערדאַם": {
         "_pos": [
             "(place)"
@@ -9829,6 +9860,16 @@
             "observer"
         ]
     },
+    "אָבסערװירן": {
+        "_pos": [
+            "(v.)"
+        ],
+        "_pro": [],
+        "eng": [
+            "observe",
+            "watch"
+        ]
+    },
     "אָבער": {
         "_pos": [
             "(conj.)"
@@ -9856,10 +9897,10 @@
             "ov (o'·ves)"
         ],
         "eng": [
-            "ancestor",
-            "patriarch",
             "Ov",
-            "the 11th mo. of the Jewish calendar"
+            "the 11th mo. of the Jewish calendar",
+            "ancestor",
+            "patriarch"
         ]
     },
     "אָבֿינו־מלכּנו": {
@@ -13037,6 +13078,17 @@
         "eng": [
             "consent",
             "allow"
+        ]
+    },
+    "באַשטעלן": {
+        "_pos": [
+            "(v.)"
+        ],
+        "_pro": [
+            "ba∙shtel'∙n"
+        ],
+        "eng": [
+            "order (goods)"
         ]
     },
     "באַשײדנקײט": {
@@ -17062,8 +17114,8 @@
     "גאָרנישט": {
         "_pos": [
             "(pron.)",
-            "adv",
-            "m"
+            "m",
+            "adv"
         ],
         "_pro": [
             "gor'∙nisht",
@@ -17071,8 +17123,8 @@
         ],
         "eng": [
             "nothing",
-            "not at all",
-            "nobody"
+            "nobody",
+            "not at all"
         ]
     },
     "גבֿול": {
@@ -19891,13 +19943,13 @@
     },
     "דאָנערשטיק": {
         "_pos": [
-            "m",
-            "adv"
+            "adv",
+            "m"
         ],
         "_pro": [],
         "eng": [
-            "Thursday",
-            "on Thursday"
+            "on Thursday",
+            "Thursday"
         ]
     },
     "דאָס": {
@@ -24906,15 +24958,15 @@
     },
     "װיסן": {
         "_pos": [
-            "n",
-            "(v.)"
+            "(v.)",
+            "n"
         ],
         "_pro": [
             "vis'·n"
         ],
         "eng": [
-            "knowledge",
-            "know"
+            "know",
+            "knowledge"
         ]
     },
     "װיסן װי אײַן און װי אױס": {
@@ -25483,17 +25535,17 @@
     },
     "װעגל": {
         "_pos": [
-            "n",
-            "n."
+            "n.",
+            "n"
         ],
         "_pro": [
             "veh'·gel"
         ],
         "eng": [
-            "trail",
-            "path",
             "small carriage or wagon",
-            "cart"
+            "cart",
+            "trail",
+            "path"
         ]
     },
     "װעגן": {
@@ -26198,6 +26250,18 @@
             "you are welcome"
         ]
     },
+    "זאָלן": {
+        "_pos": [
+            "(v.)"
+        ],
+        "_pro": [
+            "zol'∙n"
+        ],
+        "eng": [
+            "should",
+            "ought"
+        ]
+    },
     "זאָק": {
         "_pos": [
             "(m./f.)"
@@ -26690,14 +26754,14 @@
     },
     "זיכער": {
         "_pos": [
-            "adj",
-            "adv"
+            "adv",
+            "adj"
         ],
         "_pro": [],
         "eng": [
+            "of course",
             "sure",
-            "certain",
-            "of course"
+            "certain"
         ]
     },
     "זיכערהײט־ראַט": {
@@ -29006,9 +29070,9 @@
         ],
         "_pro": [],
         "eng": [
+            "cloth (piece of)",
             "handkerchief",
-            "cloth",
-            "cloth (piece of)"
+            "cloth"
         ]
     },
     "טינט": {
@@ -30677,17 +30741,17 @@
     },
     "יעדער": {
         "_pos": [
-            "(adj. uninflected)",
-            "(pron.)"
+            "(pron.)",
+            "(adj. uninflected)"
         ],
         "_pro": [
             "yey'∙der"
         ],
         "eng": [
-            "each",
-            "every",
             "anybody",
-            "anyone"
+            "anyone",
+            "each",
+            "every"
         ]
     },
     "יעדער אײנער": {
@@ -33963,16 +34027,16 @@
     },
     "מאָל": {
         "_pos": [
-            "n",
-            "m"
+            "m",
+            "n"
         ],
         "_pro": [
             "mol"
         ],
         "eng": [
+            "moth",
             "time",
-            "instance",
-            "moth"
+            "instance"
         ]
     },
     "מאָלן זיך": {
@@ -36547,13 +36611,13 @@
     },
     "מערנישט": {
         "_pos": [
-            "(conj.)",
-            "adv"
+            "adv",
+            "(conj.)"
         ],
         "_pro": [],
         "eng": [
-            "but",
-            "only"
+            "only",
+            "but"
         ]
     },
     "מערסטנס": {
@@ -39956,6 +40020,17 @@
             "in public"
         ]
     },
+    "עפֿענען": {
+        "_pos": [
+            "(v.)"
+        ],
+        "_pro": [
+            "ef'∙en∙en"
+        ],
+        "eng": [
+            "open"
+        ]
+    },
     "עפֿעקט": {
         "_pos": [
             "m"
@@ -42897,14 +42972,14 @@
             "adj"
         ],
         "_pro": [
-            "far·tsoy'·gn",
-            "far∙tsoy'∙gn"
+            "far∙tsoy'∙gn",
+            "far·tsoy'·gn"
         ],
         "eng": [
-            "endearing",
             "covered",
             "overcast",
-            "endearing name"
+            "endearing name",
+            "endearing"
         ]
     },
     "פֿאַרציטער": {
@@ -43839,16 +43914,16 @@
     },
     "פֿון": {
         "_pos": [
-            "adv",
-            "(prep.)"
+            "(prep.)",
+            "adv"
         ],
         "_pro": [
             "foon",
             "fin"
         ],
         "eng": [
-            "from",
             "of",
+            "from",
             "by"
         ]
     },
@@ -44583,6 +44658,16 @@
         "_pro": [],
         "eng": [
             "leadership"
+        ]
+    },
+    "פֿירקומען": {
+        "_pos": [
+            "(v.)"
+        ],
+        "_pro": [],
+        "eng": [
+            "take place",
+            "occur"
         ]
     },
     "פֿירשט": {
@@ -52033,6 +52118,18 @@
             "stop (clock)",
             "stone",
             "rock"
+        ]
+    },
+    "שטײן  אַנטקעגן": {
+        "_pos": [
+            "(v.)"
+        ],
+        "_pro": [
+            "shtey'∙n ant∙keyg∙n",
+            "shtay'∙n ant∙keyg'∙n"
+        ],
+        "eng": [
+            "oppose"
         ]
     },
     "שטײענדיק": {
