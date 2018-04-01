@@ -6960,6 +6960,17 @@
             "adjective"
         ]
     },
+    "אַדיר": {
+        "_pos": [
+            "m"
+        ],
+        "_pro": [
+            "a∙deer'"
+        ],
+        "eng": [
+            "wealthy person"
+        ]
+    },
     "אַדל": {
         "_pos": [
             "m"
@@ -7455,10 +7466,10 @@
         ],
         "_pro": [],
         "eng": [
-            "as much as",
             "all the way (to",
             "from",
-            "etc.)"
+            "etc.)",
+            "as much as"
         ]
     },
     "אַחדותּ": {
@@ -7876,6 +7887,15 @@
         ],
         "eng": [
             "widow"
+        ]
+    },
+    "אַלמן": {
+        "_pos": [
+            "m"
+        ],
+        "_pro": [],
+        "eng": [
+            "widower"
         ]
     },
     "אַלמער": {
@@ -9322,6 +9342,17 @@
         ],
         "eng": [
             "work"
+        ]
+    },
+    "אַרבעטער": {
+        "_pos": [
+            "m"
+        ],
+        "_pro": [
+            "ar'∙bet∙er"
+        ],
+        "eng": [
+            "worker"
         ]
     },
     "אַרבעס": {
@@ -11013,6 +11044,15 @@
             "ungrateful"
         ]
     },
+    "אָן װעלכער": {
+        "_pos": [
+            "(.)"
+        ],
+        "_pro": [],
+        "eng": [
+            "without which"
+        ]
+    },
     "אָסיען": {
         "_pos": [
             "m"
@@ -12195,8 +12235,8 @@
         ],
         "_pro": [],
         "eng": [
-            "greeting",
-            "welcome"
+            "welcome",
+            "greeting"
         ]
     },
     "באַגריסן": {
@@ -15840,8 +15880,8 @@
         ],
         "eng": [
             "stray",
-            "ramble",
-            "wander"
+            "wander",
+            "ramble"
         ]
     },
     "בלאָנדן": {
@@ -16918,14 +16958,14 @@
     },
     "בעת": {
         "_pos": [
-            "(prep.)",
-            "(conj.)"
+            "(conj.)",
+            "(prep.)"
         ],
         "_pro": [],
         "eng": [
-            "during",
             "as",
-            "while"
+            "while",
+            "during"
         ]
     },
     "בע־מע": {
@@ -17171,6 +17211,17 @@
         "eng": [
             "hum",
             "roar"
+        ]
+    },
+    "ברונעם": {
+        "_pos": [
+            "m"
+        ],
+        "_pro": [
+            "broon'∙em"
+        ],
+        "eng": [
+            "well (for water)"
         ]
     },
     "ברוסטקאַסטן": {
@@ -17522,16 +17573,16 @@
     },
     "בשעת": {
         "_pos": [
-            "(prep.)",
-            "(conj.)"
+            "(conj.)",
+            "(prep.)"
         ],
         "_pro": [
             "beh·shas'"
         ],
         "eng": [
-            "during",
             "as",
-            "while"
+            "while",
+            "during"
         ]
     },
     "בשפֿע": {
@@ -18029,18 +18080,18 @@
     },
     "גאָר": {
         "_pos": [
-            "adv",
-            "adj"
+            "adj",
+            "adv"
         ],
         "_pro": [
             "gor",
             "goor"
         ],
         "eng": [
-            "very",
-            "no more",
             "whole",
-            "entire"
+            "entire",
+            "very",
+            "no more"
         ]
     },
     "גאָרטן": {
@@ -20582,6 +20633,15 @@
             "Greek"
         ]
     },
+    "גרימצאָרן": {
+        "_pos": [
+            "m"
+        ],
+        "_pro": [],
+        "eng": [
+            "wrath"
+        ]
+    },
     "גרינגקײט": {
         "_pos": [
             "f"
@@ -21146,6 +21206,17 @@
             "occurrence",
             "happening",
             "anything"
+        ]
+    },
+    "דבֿרי": {
+        "_pos": [
+            "(.)"
+        ],
+        "_pro": [
+            "di∙vrey'"
+        ],
+        "eng": [
+            "words of"
         ]
     },
     "דבֿרים": {
@@ -24191,8 +24262,8 @@
             "hit'·l"
         ],
         "eng": [
-            "loaf (of sugar)",
-            "woman's hat"
+            "woman's hat",
+            "loaf (of sugar)"
         ]
     },
     "היטן": {
@@ -25281,6 +25352,15 @@
             "water"
         ]
     },
+    "װאַסערפֿאַל": {
+        "_pos": [
+            "m"
+        ],
+        "_pro": [],
+        "eng": [
+            "waterfall"
+        ]
+    },
     "װאַסערשטאָף": {
         "_pos": [
             "m"
@@ -25324,6 +25404,17 @@
         "_pro": [],
         "eng": [
             "shake (something)"
+        ]
+    },
+    "װאַקס": {
+        "_pos": [
+            "m"
+        ],
+        "_pro": [
+            "vaahks"
+        ],
+        "eng": [
+            "wax"
         ]
     },
     "װאַקסן": {
@@ -25377,13 +25468,13 @@
     },
     "װאַרעם": {
         "_pos": [
-            "adj",
-            "f"
+            "f",
+            "adj"
         ],
         "_pro": [],
         "eng": [
-            "warm",
-            "warmth"
+            "warmth",
+            "warm"
         ]
     },
     "װאַרפֿן": {
@@ -25556,6 +25647,18 @@
             "weekly"
         ]
     },
+    "װאָכנטאָג": {
+        "_pos": [
+            "m"
+        ],
+        "_pro": [
+            "vokh'·n·tog",
+            "vokh'·n·toog"
+        ],
+        "eng": [
+            "weekday"
+        ]
+    },
     "װאָכן־לאַנג": {
         "_pos": [
             "f"
@@ -25593,6 +25696,15 @@
         "_pro": [],
         "eng": [
             "wool"
+        ]
+    },
+    "װאָלף": {
+        "_pos": [
+            "m"
+        ],
+        "_pro": [],
+        "eng": [
+            "wolf"
         ]
     },
     "װאָלקן": {
@@ -25723,6 +25835,17 @@
             "what kind of"
         ]
     },
+    "װאָפֿן": {
+        "_pos": [
+            "m"
+        ],
+        "_pro": [
+            "vof'·n"
+        ],
+        "eng": [
+            "weapon"
+        ]
+    },
     "װאָקאַבולאַר": {
         "_pos": [
             "m"
@@ -25768,6 +25891,15 @@
         "_pro": [],
         "eng": [
             "word"
+        ]
+    },
+    "װאָרעם": {
+        "_pos": [
+            "m"
+        ],
+        "_pro": [],
+        "eng": [
+            "worm"
         ]
     },
     "װאָרענען": {
@@ -25872,6 +26004,15 @@
         "_pro": [],
         "eng": [
             "wound"
+        ]
+    },
+    "װוּנדער": {
+        "_pos": [
+            "m"
+        ],
+        "_pro": [],
+        "eng": [
+            "wonder"
         ]
     },
     "װוּנדערבאַר": {
@@ -26281,6 +26422,15 @@
             "Woe is me!"
         ]
     },
+    "װינט": {
+        "_pos": [
+            "m"
+        ],
+        "_pro": [],
+        "eng": [
+            "wind"
+        ]
+    },
     "װינטיק": {
         "_pos": [
             "adj"
@@ -26288,6 +26438,17 @@
         "_pro": [],
         "eng": [
             "windy"
+        ]
+    },
+    "װינטער": {
+        "_pos": [
+            "m"
+        ],
+        "_pro": [
+            "vin'∙ter"
+        ],
+        "eng": [
+            "Winter"
         ]
     },
     "װינטערדיק": {
@@ -26557,16 +26718,16 @@
     },
     "װײ": {
         "_pos": [
-            "m",
-            "f"
+            "f",
+            "m"
         ],
         "_pro": [
             "vey",
             "vay"
         ],
         "eng": [
-            "pain",
-            "woe"
+            "woe",
+            "pain"
         ]
     },
     "װײ איז (צו) מיר": {
@@ -26674,6 +26835,24 @@
         "_pro": [],
         "eng": [
             "tearful"
+        ]
+    },
+    "װײן": {
+        "_pos": [
+            "m"
+        ],
+        "_pro": [],
+        "eng": [
+            "wine"
+        ]
+    },
+    "װײץ": {
+        "_pos": [
+            "m"
+        ],
+        "_pro": [],
+        "eng": [
+            "wheat"
         ]
     },
     "װײַב": {
@@ -26962,6 +27141,15 @@
             "flurry"
         ]
     },
+    "װעב": {
+        "_pos": [
+            "(.)"
+        ],
+        "_pro": [],
+        "eng": [
+            "web (as in the World Wide Web)"
+        ]
+    },
     "װעבאַדרעס": {
         "_pos": [
             "m"
@@ -27005,6 +27193,33 @@
             "web page"
         ]
     },
+    "װעבמײַסטער": {
+        "_pos": [
+            "m"
+        ],
+        "_pro": [],
+        "eng": [
+            "web master"
+        ]
+    },
+    "װעבער": {
+        "_pos": [
+            "m"
+        ],
+        "_pro": [],
+        "eng": [
+            "weaver (male)"
+        ]
+    },
+    "װעבערקע": {
+        "_pos": [
+            "m"
+        ],
+        "_pro": [],
+        "eng": [
+            "weaver (female)"
+        ]
+    },
     "װעג": {
         "_pos": [
             "m"
@@ -27020,17 +27235,17 @@
     },
     "װעגל": {
         "_pos": [
-            "n",
-            "n."
+            "n.",
+            "n"
         ],
         "_pro": [
             "veh'·gel"
         ],
         "eng": [
-            "trail",
-            "path",
             "small carriage or wagon",
-            "cart"
+            "cart",
+            "trail",
+            "path"
         ]
     },
     "װעגן": {
@@ -27077,6 +27292,15 @@
         "eng": [
             "bet",
             "wager"
+        ]
+    },
+    "װעטער": {
+        "_pos": [
+            "m"
+        ],
+        "_pro": [],
+        "eng": [
+            "weather"
         ]
     },
     "װעטשערע": {
@@ -27387,16 +27611,16 @@
     },
     "װערט": {
         "_pos": [
-            "(f./m.)",
-            "adj"
+            "adj",
+            "(f./m.)"
         ],
         "_pro": [
             "vert"
         ],
         "eng": [
-            "value",
             "worth",
-            "worthy"
+            "worthy",
+            "value"
         ]
     },
     "װערטל": {
@@ -29648,8 +29872,8 @@
             "khokh'∙meh"
         ],
         "eng": [
-            "joke",
-            "wisdom"
+            "wisdom",
+            "joke"
         ]
     },
     "חכמה־צאָן": {
@@ -31480,10 +31704,10 @@
         ],
         "_pro": [],
         "eng": [
-            "term",
             "deadline",
             "techncial term",
-            "technical word"
+            "technical word",
+            "term"
         ]
     },
     "טערקיש": {
@@ -36994,6 +37218,15 @@
             "stretcher on which a corpse is placed or carried"
         ]
     },
+    "מיטװאָך": {
+        "_pos": [
+            "m"
+        ],
+        "_pro": [],
+        "eng": [
+            "Wednesday"
+        ]
+    },
     "מיטיש": {
         "_pos": [
             "adj"
@@ -38408,6 +38641,15 @@
         "_pro": [],
         "eng": [
             "more...than"
+        ]
+    },
+    "מערבֿ": {
+        "_pos": [
+            "m"
+        ],
+        "_pro": [],
+        "eng": [
+            "West"
         ]
     },
     "מערדער": {
@@ -40975,6 +41217,15 @@
             "conclusion"
         ]
     },
+    "סוף־װאָך": {
+        "_pos": [
+            "m"
+        ],
+        "_pro": [],
+        "eng": [
+            "weekend"
+        ]
+    },
     "סװישטש": {
         "_pos": [
             "m"
@@ -41158,8 +41409,8 @@
         ],
         "_pro": [],
         "eng": [
-            "jar",
-            "grain (of wood)"
+            "grain (of wood)",
+            "jar"
         ]
     },
     "סלױיק": {
@@ -41516,6 +41767,17 @@
         ],
         "eng": [
             "baby"
+        ]
+    },
+    "עושר": {
+        "_pos": [
+            "m"
+        ],
+        "_pro": [
+            "oy'∙sher"
+        ],
+        "eng": [
+            "wealthy person"
         ]
     },
     "עװאַנגעליום": {
@@ -44223,6 +44485,15 @@
             "indulge"
         ]
     },
+    "פֿאַרגינער": {
+        "_pos": [
+            "m"
+        ],
+        "_pro": [],
+        "eng": [
+            "well-wisher"
+        ]
+    },
     "פֿאַרגײן": {
         "_pos": [
             "(v.)"
@@ -45301,17 +45572,17 @@
     },
     "פֿאַרקערט": {
         "_pos": [
-            "adv",
-            "adj"
+            "adj",
+            "adv"
         ],
         "_pro": [],
         "eng": [
-            "on the contrary",
-            "conversely",
-            "vice versa",
             "reverse",
             "opposite",
-            "wrong"
+            "wrong",
+            "on the contrary",
+            "conversely",
+            "vice versa"
         ]
     },
     "פֿאַרקערלאָמפּ": {
@@ -47226,6 +47497,17 @@
             "fly"
         ]
     },
+    "פֿליגל": {
+        "_pos": [
+            "m"
+        ],
+        "_pro": [
+            "flig'∙l"
+        ],
+        "eng": [
+            "wing"
+        ]
+    },
     "פֿליכט": {
         "_pos": [
             "f"
@@ -47520,6 +47802,17 @@
             "saucepan",
             "pot",
             "penant"
+        ]
+    },
+    "פֿענצטער": {
+        "_pos": [
+            "m"
+        ],
+        "_pro": [
+            "fen'·ster"
+        ],
+        "eng": [
+            "window"
         ]
     },
     "פֿעפֿער": {
@@ -51431,8 +51724,8 @@
             "klots (klets'∙er)"
         ],
         "eng": [
-            "log (wood)",
-            "wooden beam"
+            "wooden beam",
+            "log (wood)"
         ]
     },
     "קלאָר": {
@@ -53413,6 +53706,18 @@
             "Saturday"
         ]
     },
+    "שבת־זונטיק": {
+        "_pos": [
+            "m"
+        ],
+        "_pro": [
+            "sha'∙bes∙zoon'∙tik",
+            "sha'∙bes∙zin'∙tik"
+        ],
+        "eng": [
+            "weekend"
+        ]
+    },
     "שבת־צונאַכט": {
         "_pos": [
             "adv"
@@ -54026,6 +54331,17 @@
         "eng": [
             "window pane",
             "pane. glass"
+        ]
+    },
+    "שױבװישער": {
+        "_pos": [
+            "m"
+        ],
+        "_pro": [
+            "shoyb'∙vish∙er"
+        ],
+        "eng": [
+            "windshield wiper"
         ]
     },
     "שױדערלעך": {
@@ -55477,6 +55793,17 @@
             "vagina"
         ]
     },
+    "שײטל": {
+        "_pos": [
+            "m"
+        ],
+        "_pro": [
+            "shey'∙tl"
+        ],
+        "eng": [
+            "wig (traditional wig worn by observant Jewish women)"
+        ]
+    },
     "שײכדיק": {
         "_pos": [
             "adj"
@@ -56878,6 +57205,15 @@
             "scoop"
         ]
     },
+    "שעפּטש": {
+        "_pos": [
+            "m"
+        ],
+        "_pro": [],
+        "eng": [
+            "whisper"
+        ]
+    },
     "שעפּטשען": {
         "_pos": [
             "(v.)"
@@ -57675,13 +58011,13 @@
     },
     "שריפֿט": {
         "_pos": [
-            "m",
-            "f"
+            "f",
+            "m"
         ],
         "_pro": [],
         "eng": [
-            "font",
-            "writing"
+            "writing",
+            "font"
         ]
     },
     "שריפֿטלעך": {
@@ -57692,6 +58028,15 @@
         "eng": [
             "written",
             "in writing"
+        ]
+    },
+    "שריפֿטשטעלער": {
+        "_pos": [
+            "m"
+        ],
+        "_pro": [],
+        "eng": [
+            "writer"
         ]
     },
     "שרײַ": {
