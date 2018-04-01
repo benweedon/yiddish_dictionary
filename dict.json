@@ -517,6 +517,15 @@
             "relentless"
         ]
     },
+    "אומברענגען": {
+        "_pos": [
+            "(v.)"
+        ],
+        "_pro": [],
+        "eng": [
+            "kill"
+        ]
+    },
     "אומברענג־לאַגער": {
         "_pos": [
             "m"
@@ -1868,6 +1877,16 @@
         "_pro": [],
         "eng": [
             "hear"
+        ]
+    },
+    "אױסהרגענען": {
+        "_pos": [
+            "(v.)"
+        ],
+        "_pro": [],
+        "eng": [
+            "massacre",
+            "kill off"
         ]
     },
     "אױסװאַנדערונג": {
@@ -4754,6 +4773,16 @@
             "folks",
             "kin",
             "relatives"
+        ]
+    },
+    "אײגענער": {
+        "_pos": [
+            "m"
+        ],
+        "_pro": [],
+        "eng": [
+            "relative",
+            "kin"
         ]
     },
     "אײדל": {
@@ -9704,6 +9733,15 @@
         "_pro": [],
         "eng": [
             "arrive"
+        ]
+    },
+    "אָנקלאַפּן": {
+        "_pos": [
+            "(v.)"
+        ],
+        "_pro": [],
+        "eng": [
+            "knock"
         ]
     },
     "אָנקניפּן": {
@@ -15056,15 +15094,15 @@
     },
     "בריה": {
         "_pos": [
-            "f",
-            "(m./f.)"
+            "(m./f.)",
+            "f"
         ],
         "_pro": [
             "ber'·yeh"
         ],
         "eng": [
-            "capable (or efficient) person or housewife",
-            "skillful person (especially one who keeps house well)"
+            "skillful person (especially one who keeps house well)",
+            "capable (or efficient) person or housewife"
         ]
     },
     "בריװ": {
@@ -15430,6 +15468,15 @@
         "eng": [
             "maiden",
             "virgin"
+        ]
+    },
+    "בתר כּשר": {
+        "_pos": [
+            "m"
+        ],
+        "_pro": [],
+        "eng": [
+            "kosher meat"
         ]
     },
     "בת־מלכּות": {
@@ -19300,6 +19347,28 @@
             "get wind of"
         ]
     },
+    "דערהרגענען": {
+        "_pos": [
+            "(v.)"
+        ],
+        "_pro": [
+            "der∙harg'∙en∙en"
+        ],
+        "eng": [
+            "kill"
+        ]
+    },
+    "דערהרגען": {
+        "_pos": [
+            "(v.)"
+        ],
+        "_pro": [
+            "der∙harg'∙en"
+        ],
+        "eng": [
+            "kill"
+        ]
+    },
     "דערונטער": {
         "_pos": [
             "adj"
@@ -20291,6 +20360,17 @@
         "_pro": [],
         "eng": [
             "harvest time"
+        ]
+    },
+    "האַרגען": {
+        "_pos": [
+            "(v.)"
+        ],
+        "_pro": [
+            "har'∙gen"
+        ],
+        "eng": [
+            "kill"
         ]
     },
     "האַרצװײטיק": {
@@ -21541,6 +21621,15 @@
             "Rabbi (title preceding a Rabbi's name)"
         ]
     },
+    "הרגע(נע)ן": {
+        "_pos": [
+            "(v.)"
+        ],
+        "_pro": [],
+        "eng": [
+            "kill"
+        ]
+    },
     "הרף-עינדיק": {
         "_pos": [
             "adv"
@@ -22673,13 +22762,24 @@
     },
     "װיסן": {
         "_pos": [
+            "n",
             "(v.)"
         ],
         "_pro": [
             "vis'·n"
         ],
         "eng": [
+            "knowledge",
             "know"
+        ]
+    },
+    "װיסן װי אײַן און װי אױס": {
+        "_pos": [
+            "(v.)"
+        ],
+        "_pro": [],
+        "eng": [
+            "know one's way around"
         ]
     },
     "װיסן װי אַ טיר עפֿענט": {
@@ -24767,6 +24867,16 @@
             "greed"
         ]
     },
+    "ח": {
+        "_pos": [
+            "(.)"
+        ],
+        "_pro": [],
+        "eng": [
+            "khes",
+            "8th letter of the Yiddish alphabet"
+        ]
+    },
     "חבֿר": {
         "_pos": [
             "m"
@@ -26111,6 +26221,17 @@
             "batter"
         ]
     },
+    "טײטן": {
+        "_pos": [
+            "(v.)"
+        ],
+        "_pro": [
+            "tey'"
+        ],
+        "eng": [
+            "kill"
+        ]
+    },
     "טײל": {
         "_pos": [
             "(m./f.)"
@@ -26857,6 +26978,18 @@
         "_pro": [],
         "eng": [
             "chirp"
+        ]
+    },
+    "טשײַניק": {
+        "_pos": [
+            "m"
+        ],
+        "_pro": [
+            "tshay'∙nik"
+        ],
+        "eng": [
+            "teapot",
+            "tea kettle"
         ]
     },
     "טשעכיש": {
@@ -27777,6 +27910,18 @@
             "more power (to)"
         ]
     },
+    "כּ": {
+        "_pos": [
+            "(.)"
+        ],
+        "_pro": [
+            "·"
+        ],
+        "eng": [
+            "kof",
+            "11th letter of the Yiddish alphabet"
+        ]
+    },
     "כּבֿוד": {
         "_pos": [
             "m"
@@ -27870,6 +28015,16 @@
         "eng": [
             "intention",
             "fervor"
+        ]
+    },
+    "כּיסלו": {
+        "_pos": [
+            "m"
+        ],
+        "_pro": [],
+        "eng": [
+            "Kislev",
+            "third month of the Jewish calendar"
         ]
     },
     "כּישופֿדיק": {
@@ -28042,6 +28197,16 @@
         "_pro": [],
         "eng": [
             "wedding contract"
+        ]
+    },
+    "כ": {
+        "_pos": [
+            "(.)"
+        ],
+        "_pro": [],
+        "eng": [
+            "khof",
+            "12th letter of the Yiddish alphabet"
         ]
     },
     "כאַרעקטער": {
@@ -31660,6 +31825,17 @@
             "queen"
         ]
     },
+    "מלך": {
+        "_pos": [
+            "m"
+        ],
+        "_pro": [
+            "mey'∙lekh (mlokh'∙im)"
+        ],
+        "eng": [
+            "king"
+        ]
+    },
     "ממזר": {
         "_pos": [
             "m"
@@ -32066,6 +32242,15 @@
         "_pro": [],
         "eng": [
             "measurement"
+        ]
+    },
+    "מעסער": {
+        "_pos": [
+            "m"
+        ],
+        "_pro": [],
+        "eng": [
+            "knife"
         ]
     },
     "מעקלער": {
@@ -41390,6 +41575,16 @@
             "something that has gotten blown out of proportion and turned into a very big deal"
         ]
     },
+    "צינדן": {
+        "_pos": [
+            "(v.)"
+        ],
+        "_pro": [],
+        "eng": [
+            "light",
+            "kindle"
+        ]
+    },
     "ציען": {
         "_pos": [
             "(v.)"
@@ -41754,6 +41949,16 @@
             "trouble",
             "distress",
             "problem"
+        ]
+    },
+    "ק": {
+        "_pos": [
+            "(.)"
+        ],
+        "_pro": [],
+        "eng": [
+            "kuf",
+            "21st letter of the Yiddish alphabet"
         ]
     },
     "קאַװענע": {
@@ -42365,6 +42570,24 @@
             "flight (airplane)"
         ]
     },
+    "קוש": {
+        "_pos": [
+            "m"
+        ],
+        "_pro": [],
+        "eng": [
+            "kiss"
+        ]
+    },
+    "קושן": {
+        "_pos": [
+            "(v.)"
+        ],
+        "_pro": [],
+        "eng": [
+            "kiss"
+        ]
+    },
     "קװאַדראַטפֿוס": {
         "_pos": [
             "m"
@@ -42486,6 +42709,18 @@
             "scarcely"
         ]
     },
+    "קיבוץ": {
+        "_pos": [
+            "m"
+        ],
+        "_pro": [
+            "ki∙boots'"
+        ],
+        "eng": [
+            "Kibuts (also Kibbutz)",
+            "a large collective farm in Palestine/Israel"
+        ]
+    },
     "קיבל": {
         "_pos": [
             "m"
@@ -42496,6 +42731,18 @@
         "eng": [
             "pail",
             "bucket"
+        ]
+    },
+    "קיבעצען": {
+        "_pos": [
+            "(v.)"
+        ],
+        "_pro": [
+            "kib'∙ets∙en"
+        ],
+        "eng": [
+            "kibitz",
+            "to look on and offer unwanted and intrusive comments"
         ]
     },
     "קיום": {
@@ -42547,6 +42794,17 @@
         "_pro": [],
         "eng": [
             "cool"
+        ]
+    },
+    "קילאָמעטער": {
+        "_pos": [
+            "m"
+        ],
+        "_pro": [
+            "kee·lo'·mey·ter"
+        ],
+        "eng": [
+            "kilometer"
         ]
     },
     "קילמשטױב": {
@@ -42686,6 +42944,17 @@
         "eng": [
             "dear children",
             "darling children"
+        ]
+    },
+    "קיניג": {
+        "_pos": [
+            "m"
+        ],
+        "_pro": [
+            "ki'·nig"
+        ],
+        "eng": [
+            "king"
         ]
     },
     "קיניגל": {
@@ -43257,6 +43526,17 @@
             "struggle"
         ]
     },
+    "קענטעניש": {
+        "_pos": [
+            "n"
+        ],
+        "_pro": [
+            "ken'·ten·ish"
+        ],
+        "eng": [
+            "knowledge (a person's knowledge)"
+        ]
+    },
     "קענטשאַפֿט": {
         "_pos": [
             "f"
@@ -43278,6 +43558,17 @@
         "eng": [
             "be able to",
             "can"
+        ]
+    },
+    "קענען or קאָנען": {
+        "_pos": [
+            "(v.)"
+        ],
+        "_pro": [
+            "ken'∙en or kon'∙en"
+        ],
+        "eng": [
+            "know (a skill or language)"
         ]
     },
     "קעסט": {
@@ -45712,6 +46003,15 @@
             "string"
         ]
     },
+    "שטריקן": {
+        "_pos": [
+            "(v.)"
+        ],
+        "_pro": [],
+        "eng": [
+            "knit"
+        ]
+    },
     "שטרײַמל": {
         "_pos": [
             "n"
@@ -47376,6 +47676,17 @@
         "eng": [
             "spear",
             "dart"
+        ]
+    },
+    "שפּיזל": {
+        "_pos": [
+            "n"
+        ],
+        "_pro": [
+            "shpiz'∙l"
+        ],
+        "eng": [
+            "knitting needle"
         ]
     },
     "שפּיטאָל": {
