@@ -1699,17 +1699,17 @@
     },
     "אױס": {
         "_pos": [
-            "adj",
-            "adv"
+            "adv",
+            "adj"
         ],
         "_pro": [
             "oys",
             "os"
         ],
         "eng": [
-            "over",
             "no more",
-            "through"
+            "through",
+            "over"
         ]
     },
     "אױסבאַהאַלטן": {
@@ -4116,13 +4116,13 @@
     },
     "איך": {
         "_pos": [
-            "m",
-            "(pron., 1st person singular)"
+            "(pron., 1st person singular)",
+            "m"
         ],
         "_pro": [],
         "eng": [
-            "ego",
-            "I"
+            "I",
+            "ego"
         ]
     },
     "איך האָב דיך ליב": {
@@ -5111,8 +5111,8 @@
         ],
         "eng": [
             "grandson",
-            "grandchild",
-            "granddaughter"
+            "granddaughter",
+            "grandchild"
         ]
     },
     "אײנס": {
@@ -5378,6 +5378,15 @@
         "eng": [
             "hurry",
             "haste"
+        ]
+    },
+    "אײַנבירגערן זיך": {
+        "_pos": [
+            "(v.)"
+        ],
+        "_pro": [],
+        "eng": [
+            "naturalize (become naturalized)"
         ]
     },
     "אײַנבײגן": {
@@ -5971,6 +5980,15 @@
         "_pro": [],
         "eng": [
             "Arye"
+        ]
+    },
+    "ארץ־ישׂראל": {
+        "_pos": [
+            "n"
+        ],
+        "_pro": [],
+        "eng": [
+            "Palestine"
         ]
     },
     "אתרוג": {
@@ -6927,6 +6945,17 @@
             "etc.)"
         ]
     },
+    "אַחדותּ": {
+        "_pos": [
+            "n"
+        ],
+        "_pro": [
+            "akh'·des"
+        ],
+        "eng": [
+            "unity"
+        ]
+    },
     "אַחזר": {
         "_pos": [
             "m"
@@ -7204,6 +7233,17 @@
         "_pro": [],
         "eng": [
             "German: old German (language)"
+        ]
+    },
+    "אַלטייִדיש": {
+        "_pos": [
+            "n"
+        ],
+        "_pro": [
+            "alt∙yeed'∙ish"
+        ],
+        "eng": [
+            "Old Yiddish (Yiddish language from approx. 1000 AD to ? AD)"
         ]
     },
     "אַלטע מױד": {
@@ -9664,6 +9704,15 @@
             "arrest (someone)"
         ]
     },
+    "אַרץ": {
+        "_pos": [
+            "n"
+        ],
+        "_pro": [],
+        "eng": [
+            "ore"
+        ]
+    },
     "אַש": {
         "_pos": [
             "n"
@@ -9807,10 +9856,10 @@
             "ov (o'·ves)"
         ],
         "eng": [
-            "Ov",
-            "the 11th mo. of the Jewish calendar",
             "ancestor",
-            "patriarch"
+            "patriarch",
+            "Ov",
+            "the 11th mo. of the Jewish calendar"
         ]
     },
     "אָבֿינו־מלכּנו": {
@@ -9864,14 +9913,14 @@
     },
     "אָדער": {
         "_pos": [
-            "m",
-            "(conj.)"
+            "(conj.)",
+            "m"
         ],
         "_pro": [],
         "eng": [
+            "or",
             "vein",
-            "blood vessel",
-            "or"
+            "blood vessel"
         ]
     },
     "אָדער...אָדער": {
@@ -9915,6 +9964,17 @@
         "_pro": [],
         "eng": [
             "evening"
+        ]
+    },
+    "אָװנטברױט": {
+        "_pos": [
+            "n"
+        ],
+        "_pro": [
+            "ov'∙nt∙broyt"
+        ],
+        "eng": [
+            "supper"
         ]
     },
     "אָזערע": {
@@ -11110,6 +11170,15 @@
             "poor man"
         ]
     },
+    "אָרעמ־מענטש": {
+        "_pos": [
+            "n"
+        ],
+        "_pro": [],
+        "eng": [
+            "poor woman"
+        ]
+    },
     "אָרעם": {
         "_pos": [
             "m",
@@ -11423,6 +11492,18 @@
         "eng": [
             "restriction",
             "limitation"
+        ]
+    },
+    "באַדאַרפֿן": {
+        "_pos": [
+            "(v.)"
+        ],
+        "_pro": [
+            "ba∙darf'∙n"
+        ],
+        "eng": [
+            "need",
+            "require"
         ]
     },
     "באַדױערלעך": {
@@ -12198,6 +12279,17 @@
             "comment"
         ]
     },
+    "באַמערקן": {
+        "_pos": [
+            "(v.)"
+        ],
+        "_pro": [
+            "ba∙merk'∙n"
+        ],
+        "eng": [
+            "notice"
+        ]
+    },
     "באַנאיץ": {
         "_pos": [
             "m"
@@ -12708,6 +12800,15 @@
             "ridge"
         ]
     },
+    "באַרועכץ": {
+        "_pos": [
+            "n"
+        ],
+        "_pro": [],
+        "eng": [
+            "tranquilizer"
+        ]
+    },
     "באַרױקן": {
         "_pos": [
             "(v.)"
@@ -13204,6 +13305,18 @@
             "bomb"
         ]
     },
+    "באָפּקעס": {
+        "_pos": [
+            "(.)"
+        ],
+        "_pro": [
+            "bub'·kes (or) bop'·kes"
+        ],
+        "eng": [
+            "something extremely trivial",
+            "practically nothing (American Jewish)"
+        ]
+    },
     "באָקס": {
         "_pos": [
             "m"
@@ -13495,9 +13608,9 @@
             "boh'∙ikh"
         ],
         "eng": [
-            "tummy",
             "abdomen",
-            "belly"
+            "belly",
+            "tummy"
         ]
     },
     "בױמל": {
@@ -13686,6 +13799,17 @@
         ],
         "eng": [
             "office worker"
+        ]
+    },
+    "ביוראָ": {
+        "_pos": [
+            "n"
+        ],
+        "_pro": [
+            "byu'∙ro"
+        ],
+        "eng": [
+            "office"
         ]
     },
     "ביז": {
@@ -14420,6 +14544,7 @@
     },
     "בײַזײַן": {
         "_pos": [
+            "n",
             "(v.)"
         ],
         "_pro": [
@@ -14427,6 +14552,7 @@
             "bay'∙zaan"
         ],
         "eng": [
+            "presence",
             "be present"
         ]
     },
@@ -14452,6 +14578,15 @@
         ],
         "eng": [
             "by day"
+        ]
+    },
+    "בײַטל": {
+        "_pos": [
+            "n"
+        ],
+        "_pro": [],
+        "eng": [
+            "purse"
         ]
     },
     "בײַטש": {
@@ -14628,16 +14763,16 @@
     },
     "בלאַט": {
         "_pos": [
-            "(m./n.)",
-            "n"
+            "n",
+            "(m./n.)"
         ],
         "_pro": [
             "blat (blet'∙er)"
         ],
         "eng": [
+            "newspaper",
             "leaf",
-            "sheet of paper",
-            "newspaper"
+            "sheet of paper"
         ]
     },
     "בלאַס": {
@@ -14914,6 +15049,17 @@
         ],
         "eng": [
             "e-mail"
+        ]
+    },
+    "בליצשלעסל": {
+        "_pos": [
+            "n"
+        ],
+        "_pro": [
+            "blits'∙shles∙l"
+        ],
+        "eng": [
+            "zipper"
         ]
     },
     "בלי־ספֿק": {
@@ -15583,6 +15729,15 @@
             "practical person"
         ]
     },
+    "בענדל": {
+        "_pos": [
+            "n"
+        ],
+        "_pro": [],
+        "eng": [
+            "ribbon"
+        ]
+    },
     "בענזין": {
         "_pos": [
             "m"
@@ -16099,15 +16254,15 @@
     },
     "בריה": {
         "_pos": [
-            "(m./f.)",
-            "f"
+            "f",
+            "(m./f.)"
         ],
         "_pro": [
             "ber'·yeh"
         ],
         "eng": [
-            "skillful person (especially one who keeps house well)",
-            "capable (or efficient) person or housewife"
+            "capable (or efficient) person or housewife",
+            "skillful person (especially one who keeps house well)"
         ]
     },
     "בריװ": {
@@ -16906,16 +17061,18 @@
     },
     "גאָרנישט": {
         "_pos": [
-            "m",
-            "adv"
+            "(pron.)",
+            "adv",
+            "m"
         ],
         "_pro": [
             "gor'∙nisht",
             "goor'∙nisht"
         ],
         "eng": [
-            "nobody",
-            "not at all"
+            "nothing",
+            "not at all",
+            "nobody"
         ]
     },
     "גבֿול": {
@@ -17504,17 +17661,17 @@
     },
     "גלאָז": {
         "_pos": [
-            "(f./m.)",
-            "n"
+            "n",
+            "(f./m.)"
         ],
         "_pro": [
             "gloz",
             "glooz"
         ],
         "eng": [
+            "glass (material)",
             "glass (drinking)",
-            "drinking glass",
-            "glass (material)"
+            "drinking glass"
         ]
     },
     "גלוסט": {
@@ -17687,6 +17844,16 @@
         "_pro": [],
         "eng": [
             "equation"
+        ]
+    },
+    "גלײַכװעאָרט": {
+        "_pos": [
+            "n"
+        ],
+        "_pro": [],
+        "eng": [
+            "witticism",
+            "aphorism"
         ]
     },
     "גלײַכנאַכט": {
@@ -18008,6 +18175,15 @@
             "patience"
         ]
     },
+    "געדיכט": {
+        "_pos": [
+            "n"
+        ],
+        "_pro": [],
+        "eng": [
+            "poem"
+        ]
+    },
     "געדישעכץ": {
         "_pos": [
             "n"
@@ -18322,6 +18498,17 @@
             "wager"
         ]
     },
+    "געװעלב": {
+        "_pos": [
+            "n"
+        ],
+        "_pro": [],
+        "eng": [
+            "vault",
+            "shop",
+            "store"
+        ]
+    },
     "געװער": {
         "_pos": [
             "n"
@@ -18420,6 +18607,15 @@
         "eng": [
             "devoted",
             "faithful"
+        ]
+    },
+    "געיאָג": {
+        "_pos": [
+            "n"
+        ],
+        "_pro": [],
+        "eng": [
+            "rush"
         ]
     },
     "געיאָגט": {
@@ -18790,6 +18986,15 @@
             "directed at"
         ]
     },
+    "געקלאַפּערײַ": {
+        "_pos": [
+            "n"
+        ],
+        "_pro": [],
+        "eng": [
+            "rattling"
+        ]
+    },
     "געראַטעװעט": {
         "_pos": [
             "adj"
@@ -18868,6 +19073,15 @@
             "affidavit"
         ]
     },
+    "געשטאַלט": {
+        "_pos": [
+            "n"
+        ],
+        "_pro": [],
+        "eng": [
+            "shape"
+        ]
+    },
     "געשיכטע": {
         "_pos": [
             "f"
@@ -18887,6 +19101,17 @@
         "_pro": [],
         "eng": [
             "quick-witted"
+        ]
+    },
+    "געשלעכט": {
+        "_pos": [
+            "n"
+        ],
+        "_pro": [
+            "geh∙shlekht'"
+        ],
+        "eng": [
+            "sex"
         ]
     },
     "געשלעכטיק": {
@@ -18950,6 +19175,15 @@
         "_pro": [],
         "eng": [
             "split personality"
+        ]
+    },
+    "געשפּעט": {
+        "_pos": [
+            "n"
+        ],
+        "_pro": [],
+        "eng": [
+            "ridicule"
         ]
     },
     "געשפּענסט": {
@@ -19623,6 +19857,17 @@
             "here"
         ]
     },
+    "דאָזיקער": {
+        "_pos": [
+            "(pron.)"
+        ],
+        "_pro": [],
+        "eng": [
+            "this",
+            "these",
+            "the previously mentioned"
+        ]
+    },
     "דאָך": {
         "_pos": [
             "adv"
@@ -19657,6 +19902,7 @@
     },
     "דאָס": {
         "_pos": [
+            "(pron.)",
             "(article)"
         ],
         "_pro": [
@@ -19664,6 +19910,7 @@
             "doos"
         ],
         "eng": [
+            "this",
             "the (used with words that are nueter gender)"
         ]
     },
@@ -20394,6 +20641,15 @@
             "dwelling"
         ]
     },
+    "דירה־געלט": {
+        "_pos": [
+            "n"
+        ],
+        "_pro": [],
+        "eng": [
+            "rent"
+        ]
+    },
     "דיריגירן": {
         "_pos": [
             "(v.)"
@@ -21119,6 +21375,15 @@
             "bring closer"
         ]
     },
+    "דערנער": {
+        "_pos": [
+            "(v.)"
+        ],
+        "_pro": [],
+        "eng": [
+            "nourish"
+        ]
+    },
     "דערנערונג": {
         "_pos": [
             "f"
@@ -21423,6 +21688,15 @@
             "playwrighting"
         ]
     },
+    "דראָט": {
+        "_pos": [
+            "(m./n.)"
+        ],
+        "_pro": [],
+        "eng": [
+            "wire"
+        ]
+    },
     "דראָען": {
         "_pos": [
             "(v.)"
@@ -21515,6 +21789,15 @@
             "third"
         ]
     },
+    "דריטל": {
+        "_pos": [
+            "n"
+        ],
+        "_pro": [],
+        "eng": [
+            "third"
+        ]
+    },
     "דריטנס": {
         "_pos": [
             "adv"
@@ -21578,6 +21861,18 @@
         "eng": [
             "turn",
             "twist"
+        ]
+    },
+    "דרײדל": {
+        "_pos": [
+            "n"
+        ],
+        "_pro": [
+            "drey'∙dl"
+        ],
+        "eng": [
+            "top (spinning top)",
+            "dreydl"
         ]
     },
     "דרײסט": {
@@ -21953,6 +22248,17 @@
             "swastika"
         ]
     },
+    "האַקן אַ טשײַניק": {
+        "_pos": [
+            "(v.)"
+        ],
+        "_pro": [
+            "hak'∙n a tshay'∙nik"
+        ],
+        "eng": [
+            "talk nonsense"
+        ]
+    },
     "האַרב": {
         "_pos": [
             "adj"
@@ -22137,6 +22443,15 @@
         ],
         "eng": [
             "hotel"
+        ]
+    },
+    "האָלץ": {
+        "_pos": [
+            "n"
+        ],
+        "_pro": [],
+        "eng": [
+            "wood"
         ]
     },
     "האָניק": {
@@ -22503,8 +22818,8 @@
             "hit'·l"
         ],
         "eng": [
-            "loaf (of sugar)",
-            "woman's hat"
+            "woman's hat",
+            "loaf (of sugar)"
         ]
     },
     "היטן": {
@@ -23449,6 +23764,15 @@
             "awake"
         ]
     },
+    "װאַלגערהאָלץ": {
+        "_pos": [
+            "n"
+        ],
+        "_pro": [],
+        "eng": [
+            "rolling pin"
+        ]
+    },
     "װאַלגערן זיך": {
         "_pos": [
             "(v. intrans.)"
@@ -23523,6 +23847,15 @@
         "eng": [
             "bedbug",
             "repulsive person"
+        ]
+    },
+    "װאַסער": {
+        "_pos": [
+            "n"
+        ],
+        "_pro": [],
+        "eng": [
+            "water"
         ]
     },
     "װאַסערשטאָף": {
@@ -23805,6 +24138,18 @@
             "mustache"
         ]
     },
+    "װאָס": {
+        "_pos": [
+            "(pron.)"
+        ],
+        "_pro": [
+            "vos",
+            "voos"
+        ],
+        "eng": [
+            "what"
+        ]
+    },
     "װאָס אַ חילוק": {
         "_pos": [
             "(phrase)"
@@ -23875,6 +24220,20 @@
             "concerning"
         ]
     },
+    "װאָסזשע": {
+        "_pos": [
+            "(pron.)"
+        ],
+        "_pro": [
+            "voszh'∙eh",
+            "vooszh'∙eh"
+        ],
+        "eng": [
+            "what",
+            "\"so",
+            "what...\" (colloquial)"
+        ]
+    },
     "װאָסער": {
         "_pos": [
             "adj"
@@ -23925,6 +24284,15 @@
         "_pro": [],
         "eng": [
             "truthful"
+        ]
+    },
+    "װאָרט": {
+        "_pos": [
+            "n"
+        ],
+        "_pro": [],
+        "eng": [
+            "word"
         ]
     },
     "װאָרצל": {
@@ -24361,6 +24729,15 @@
             "absurd"
         ]
     },
+    "װילדגראָז": {
+        "_pos": [
+            "n"
+        ],
+        "_pro": [],
+        "eng": [
+            "weed"
+        ]
+    },
     "װילדער װײַן": {
         "_pos": [
             "m"
@@ -24529,15 +24906,15 @@
     },
     "װיסן": {
         "_pos": [
-            "(v.)",
-            "n"
+            "n",
+            "(v.)"
         ],
         "_pro": [
             "vis'·n"
         ],
         "eng": [
-            "know",
-            "knowledge"
+            "knowledge",
+            "know"
         ]
     },
     "װיסן װי אײַן און װי אױס": {
@@ -24560,13 +24937,13 @@
     },
     "װיפֿל": {
         "_pos": [
-            "adv",
-            "(adj. uninflected)"
+            "(adj. uninflected)",
+            "adv"
         ],
         "_pro": [],
         "eng": [
-            "how much",
-            "how many"
+            "how many",
+            "how much"
         ]
     },
     "װיפֿל איז דער זײגער": {
@@ -24784,6 +25161,18 @@
         ],
         "eng": [
             "wife"
+        ]
+    },
+    "װײַבל": {
+        "_pos": [
+            "n"
+        ],
+        "_pro": [
+            "vayb'∙l",
+            "vaab'∙l"
+        ],
+        "eng": [
+            "young married woman"
         ]
     },
     "װײַבלעך": {
@@ -25048,6 +25437,17 @@
             "flurry"
         ]
     },
+    "װעבבלאַט": {
+        "_pos": [
+            "(m./n.)"
+        ],
+        "_pro": [
+            "veb'∙blat (veb'∙blet∙er)"
+        ],
+        "eng": [
+            "web page"
+        ]
+    },
     "װעבזײַט": {
         "_pos": [
             "f"
@@ -25057,6 +25457,15 @@
         ],
         "eng": [
             "web site"
+        ]
+    },
+    "װעבזײַטל": {
+        "_pos": [
+            "n"
+        ],
+        "_pro": [],
+        "eng": [
+            "web page"
         ]
     },
     "װעג": {
@@ -25074,12 +25483,15 @@
     },
     "װעגל": {
         "_pos": [
+            "n",
             "n."
         ],
         "_pro": [
             "veh'·gel"
         ],
         "eng": [
+            "trail",
+            "path",
             "small carriage or wagon",
             "cart"
         ]
@@ -25223,17 +25635,17 @@
     },
     "װעלן": {
         "_pos": [
-            "(v.)",
-            "(v. auxiliary)"
+            "(v. auxiliary)",
+            "(v.)"
         ],
         "_pro": [
-            "vel'∙n",
-            "vel'·n"
+            "vel'·n",
+            "vel'∙n"
         ],
         "eng": [
+            "will",
             "want",
-            "wish",
-            "will"
+            "wish"
         ]
     },
     "װעלפֿיש": {
@@ -25338,6 +25750,15 @@
             "any time"
         ]
     },
+    "װעסטל": {
+        "_pos": [
+            "n"
+        ],
+        "_pro": [],
+        "eng": [
+            "vest"
+        ]
+    },
     "װעסנע": {
         "_pos": [
             "f"
@@ -25345,6 +25766,15 @@
         "_pro": [],
         "eng": [
             "Spring season"
+        ]
+    },
+    "װעפּעכץ": {
+        "_pos": [
+            "n"
+        ],
+        "_pro": [],
+        "eng": [
+            "vapor"
         ]
     },
     "װעקסל": {
@@ -25368,6 +25798,15 @@
         ],
         "eng": [
             "alarm clock"
+        ]
+    },
+    "װער": {
+        "_pos": [
+            "(pron.)"
+        ],
+        "_pro": [],
+        "eng": [
+            "who"
         ]
     },
     "װערב": {
@@ -25509,6 +25948,17 @@
             "dice"
         ]
     },
+    "װערק": {
+        "_pos": [
+            "n"
+        ],
+        "_pro": [],
+        "eng": [
+            "opus",
+            "work (of art",
+            "etc.)"
+        ]
+    },
     "װעש": {
         "_pos": [
             "n"
@@ -25612,6 +26062,15 @@
         "eng": [
             "volley",
             "salvo"
+        ]
+    },
+    "זאַלצנװאַסער": {
+        "_pos": [
+            "n"
+        ],
+        "_pro": [],
+        "eng": [
+            "salt water"
         ]
     },
     "זאַלץ": {
@@ -25822,6 +26281,18 @@
         "eng": [
             "leave no stone unturned",
             "search intensively"
+        ]
+    },
+    "זוכעניש": {
+        "_pos": [
+            "n"
+        ],
+        "_pro": [
+            "zookh'∙en∙ish",
+            "zeekh'∙en∙ish"
+        ],
+        "eng": [
+            "searching"
         ]
     },
     "זוכצעטל": {
@@ -26070,6 +26541,15 @@
             "swill"
         ]
     },
+    "זי": {
+        "_pos": [
+            "(pron.)"
+        ],
+        "_pro": [],
+        "eng": [
+            "she"
+        ]
+    },
     "זיבן": {
         "_pos": [
             "(num.)"
@@ -26260,6 +26740,15 @@
             "each other"
         ]
     },
+    "זילבער": {
+        "_pos": [
+            "n"
+        ],
+        "_pro": [],
+        "eng": [
+            "silver"
+        ]
+    },
     "זילבערדיק": {
         "_pos": [
             "adj"
@@ -26286,6 +26775,17 @@
         "_pro": [],
         "eng": [
             "tin foil"
+        ]
+    },
+    "זינגליד": {
+        "_pos": [
+            "n"
+        ],
+        "_pro": [
+            "zing'∙leed"
+        ],
+        "eng": [
+            "song"
         ]
     },
     "זינגער": {
@@ -26430,6 +26930,35 @@
             "soap"
         ]
     },
+    "זײ": {
+        "_pos": [
+            "(pron.)"
+        ],
+        "_pro": [],
+        "eng": [
+            "they",
+            "them"
+        ]
+    },
+    "זײגן": {
+        "_pos": [
+            "(v.)"
+        ],
+        "_pro": [],
+        "eng": [
+            "suckle",
+            "nurse"
+        ]
+    },
+    "זײגערל": {
+        "_pos": [
+            "n"
+        ],
+        "_pro": [],
+        "eng": [
+            "watch (time piece)"
+        ]
+    },
     "זײדע": {
         "_pos": [
             "m"
@@ -26458,6 +26987,15 @@
     "זײַד": {
         "_pos": [
             "f"
+        ],
+        "_pro": [],
+        "eng": [
+            "silk"
+        ]
+    },
+    "זײַדנס": {
+        "_pos": [
+            "n"
         ],
         "_pro": [],
         "eng": [
@@ -26503,6 +27041,15 @@
         "_pro": [],
         "eng": [
             "outsider"
+        ]
+    },
+    "זײַטל": {
+        "_pos": [
+            "n"
+        ],
+        "_pro": [],
+        "eng": [
+            "page"
         ]
     },
     "זײַן 1": {
@@ -26877,6 +27424,15 @@
             "blow",
             "stroke",
             "slam"
+        ]
+    },
+    "זעקל": {
+        "_pos": [
+            "n"
+        ],
+        "_pro": [],
+        "eng": [
+            "pouch"
         ]
     },
     "זעקס": {
@@ -28450,9 +29006,9 @@
         ],
         "_pro": [],
         "eng": [
-            "cloth (piece of)",
             "handkerchief",
-            "cloth"
+            "cloth",
+            "cloth (piece of)"
         ]
     },
     "טינט": {
@@ -28636,6 +29192,15 @@
             "part",
             "unit",
             "division"
+        ]
+    },
+    "טײל(ע)כל": {
+        "_pos": [
+            "n"
+        ],
+        "_pro": [],
+        "eng": [
+            "particle"
         ]
     },
     "טײלן אױף": {
@@ -28968,6 +29533,15 @@
             "dish"
         ]
     },
+    "טעלערל": {
+        "_pos": [
+            "n"
+        ],
+        "_pro": [],
+        "eng": [
+            "saucer"
+        ]
+    },
     "טעמאַטיק": {
         "_pos": [
             "m"
@@ -29071,6 +29645,17 @@
         "eng": [
             "dance",
             "jig"
+        ]
+    },
+    "טעפּעלע": {
+        "_pos": [
+            "n"
+        ],
+        "_pro": [
+            "tep'∙e∙leh"
+        ],
+        "eng": [
+            "small pot"
         ]
     },
     "טעקל": {
@@ -29935,12 +30520,14 @@
     },
     "ייִדיש": {
         "_pos": [
+            "n",
             "adj"
         ],
         "_pro": [
             "yeed'∙ish"
         ],
         "eng": [
+            "Yiddish (language)",
             "Jewish"
         ]
     },
@@ -30141,16 +30728,16 @@
     },
     "יעטװידער": {
         "_pos": [
-            "adj",
-            "(pron.)"
+            "(pron.)",
+            "adj"
         ],
         "_pro": [
             "yet∙vee'∙der"
         ],
         "eng": [
+            "everyone",
             "each",
-            "every",
-            "everyone"
+            "every"
         ]
     },
     "יעמאָלט": {
@@ -30678,6 +31265,17 @@
             "receptacle"
         ]
     },
+    "כּלי־זײן": {
+        "_pos": [
+            "n"
+        ],
+        "_pro": [
+            "kleh'·zay'·en"
+        ],
+        "eng": [
+            "weapon"
+        ]
+    },
     "כּלל....נישט": {
         "_pos": [
             "(phrase)"
@@ -30695,6 +31293,17 @@
         "eng": [
             "standard...",
             "communal..."
+        ]
+    },
+    "כּלל־ייִדיש": {
+        "_pos": [
+            "n"
+        ],
+        "_pro": [
+            "klal'∙yeed∙ish"
+        ],
+        "eng": [
+            "standard Yiddish"
         ]
     },
     "כּלערלײ": {
@@ -31982,13 +32591,13 @@
     },
     "לײב": {
         "_pos": [
-            "m",
-            "name"
+            "name",
+            "m"
         ],
         "_pro": [],
         "eng": [
-            "lion",
-            "Leyb"
+            "Leyb",
+            "lion"
         ]
     },
     "לײביכע": {
@@ -32002,15 +32611,15 @@
     },
     "לײבל": {
         "_pos": [
-            "name",
-            "n"
+            "n",
+            "name"
         ],
         "_pro": [
             "ley'·bl"
         ],
         "eng": [
-            "Leybl",
-            "loaf (of bread)"
+            "loaf (of bread)",
+            "Leybl"
         ]
     },
     "לײגן": {
@@ -32080,6 +32689,18 @@
         "eng": [
             "alas",
             "unfortunately"
+        ]
+    },
+    "לײכעץ": {
+        "_pos": [
+            "n"
+        ],
+        "_pro": [
+            "ley'∙khets",
+            "lay'∙khets"
+        ],
+        "eng": [
+            "phlegm"
         ]
     },
     "לײם": {
@@ -32305,12 +32926,12 @@
             "m"
         ],
         "_pro": [
-            "lam'·dn",
-            "lahm'∙dn"
+            "lahm'∙dn",
+            "lam'·dn"
         ],
         "eng": [
-            "scholar",
-            "learned man"
+            "learned man",
+            "scholar"
         ]
     },
     "למד־װאָװניק": {
@@ -32357,15 +32978,15 @@
     },
     "לעבן": {
         "_pos": [
-            "(v.)",
-            "n"
+            "n",
+            "(v.)"
         ],
         "_pro": [
             "ley'∙bn"
         ],
         "eng": [
-            "live",
-            "life"
+            "life",
+            "live"
         ]
     },
     "לעבן געבליבענער": {
@@ -32500,6 +33121,15 @@
             "spoon"
         ]
     },
+    "לעפֿעלע": {
+        "_pos": [
+            "n"
+        ],
+        "_pro": [],
+        "eng": [
+            "teaspoon"
+        ]
+    },
     "לעצט": {
         "_pos": [
             "adj",
@@ -32545,6 +33175,15 @@
         "eng": [
             "lesson",
             "lecture"
+        ]
+    },
+    "לערנען": {
+        "_pos": [
+            "n"
+        ],
+        "_pro": [],
+        "eng": [
+            "study"
         ]
     },
     "לערנען זיך": {
@@ -32614,6 +33253,18 @@
         ],
         "eng": [
             "language"
+        ]
+    },
+    "לשון־הרע": {
+        "_pos": [
+            "n"
+        ],
+        "_pro": [
+            "losh'∙n∙hor∙eh"
+        ],
+        "eng": [
+            "slander",
+            "vilification"
         ]
     },
     "לשון־זכר": {
@@ -33312,16 +33963,16 @@
     },
     "מאָל": {
         "_pos": [
-            "m",
-            "n"
+            "n",
+            "m"
         ],
         "_pro": [
             "mol"
         ],
         "eng": [
-            "moth",
             "time",
-            "instance"
+            "instance",
+            "moth"
         ]
     },
     "מאָלן זיך": {
@@ -33360,6 +34011,15 @@
         "_pro": [],
         "eng": [
             "painter (of art)"
+        ]
+    },
+    "מאָלערײַ": {
+        "_pos": [
+            "n"
+        ],
+        "_pro": [],
+        "eng": [
+            "painting"
         ]
     },
     "מאָלצײַט": {
@@ -34475,17 +35135,17 @@
     },
     "מיטל": {
         "_pos": [
-            "adj",
-            "n"
+            "n",
+            "adj"
         ],
         "_pro": [
-            "mit'·l",
-            "mit'∙l"
+            "mit'∙l",
+            "mit'·l"
         ],
         "eng": [
-            "middle",
             "means",
-            "resources"
+            "resources",
+            "middle"
         ]
     },
     "מיטלװעג": {
@@ -34517,15 +35177,15 @@
     },
     "מיטן": {
         "_pos": [
-            "m",
-            "(prep. phrase)(contraction of mit and dem)"
+            "(prep. phrase)(contraction of mit and dem)",
+            "m"
         ],
         "_pro": [
             "mit'·n"
         ],
         "eng": [
-            "middle",
-            "with the"
+            "with the",
+            "middle"
         ]
     },
     "מיט־שעה": {
@@ -35788,6 +36448,18 @@
             "manly"
         ]
     },
+    "מען": {
+        "_pos": [
+            "(pron.)"
+        ],
+        "_pro": [],
+        "eng": [
+            "one",
+            "you",
+            "they",
+            "people"
+        ]
+    },
     "מעסטונג": {
         "_pos": [
             "f"
@@ -35818,15 +36490,15 @@
     },
     "מער": {
         "_pos": [
-            "adj",
-            "f"
+            "f",
+            "adj"
         ],
         "_pro": [
             "mer"
         ],
         "eng": [
-            "more",
-            "carrot"
+            "carrot",
+            "more"
         ]
     },
     "מער...אײדער": {
@@ -36206,6 +36878,15 @@
             "insane asylum"
         ]
     },
+    "משוגעים־העמדל": {
+        "_pos": [
+            "n"
+        ],
+        "_pro": [],
+        "eng": [
+            "straightjacket"
+        ]
+    },
     "משוגעןער": {
         "_pos": [
             "m"
@@ -36497,6 +37178,15 @@
             "nightime"
         ]
     },
+    "נאַכטהעמד": {
+        "_pos": [
+            "n"
+        ],
+        "_pro": [],
+        "eng": [
+            "night shirt"
+        ]
+    },
     "נאַכטיק": {
         "_pos": [
             "adj"
@@ -36708,6 +37398,16 @@
         "_pro": [],
         "eng": [
             "notary public"
+        ]
+    },
+    "נאָטיץ": {
+        "_pos": [
+            "(.)"
+        ],
+        "_pro": [],
+        "eng": [
+            "note",
+            "notice"
         ]
     },
     "נאָכאַמאָליק": {
@@ -37130,6 +37830,15 @@
         "eng": [
             "number",
             "issue (of a publication)"
+        ]
+    },
+    "נומערירן": {
+        "_pos": [
+            "(v.)"
+        ],
+        "_pro": [],
+        "eng": [
+            "number"
         ]
     },
     "נוס": {
@@ -37697,6 +38406,15 @@
         "_pro": [],
         "eng": [
             "nail clippers"
+        ]
+    },
+    "נעזל": {
+        "_pos": [
+            "n"
+        ],
+        "_pro": [],
+        "eng": [
+            "nozzle"
         ]
     },
     "נעילה": {
@@ -39014,6 +39732,16 @@
             "in all events"
         ]
     },
+    "עמעצער": {
+        "_pos": [
+            "(pron.)"
+        ],
+        "_pro": [],
+        "eng": [
+            "someone",
+            "somebody"
+        ]
+    },
     "ענג": {
         "_pos": [
             "adj"
@@ -39193,16 +39921,16 @@
     },
     "עפּעס": {
         "_pos": [
-            "adv",
-            "(pron.)"
+            "(pron.)",
+            "adv"
         ],
         "_pro": [
             "ep'∙es"
         ],
         "eng": [
-            "somewhat",
             "something",
-            "anything"
+            "anything",
+            "somewhat"
         ]
     },
     "עפֿנטלעך": {
@@ -39564,6 +40292,15 @@
             "scoundrel"
         ]
     },
+    "פּאַפּיר": {
+        "_pos": [
+            "n"
+        ],
+        "_pro": [],
+        "eng": [
+            "paper"
+        ]
+    },
     "פּאַפּשױ": {
         "_pos": [
             "m"
@@ -39847,13 +40584,13 @@
             "m"
         ],
         "_pro": [
-            "pa'∙khed (pkhod'∙im)",
-            "pakh'∙ed"
+            "pakh'∙ed",
+            "pa'∙khed (pkhod'∙im)"
         ],
         "eng": [
+            "awe",
             "fear",
-            "dread",
-            "awe"
+            "dread"
         ]
     },
     "פּחדונות": {
@@ -40076,6 +40813,17 @@
             "urinate",
             "piss",
             "pee"
+        ]
+    },
+    "פּישעכץ": {
+        "_pos": [
+            "n"
+        ],
+        "_pro": [
+            "pish'∙ekhts"
+        ],
+        "eng": [
+            "urine"
         ]
     },
     "פּײַנלעך": {
@@ -40726,6 +41474,15 @@
         ],
         "eng": [
             "meaning (the literal meaning)"
+        ]
+    },
+    "פּשטות": {
+        "_pos": [
+            "n"
+        ],
+        "_pro": [],
+        "eng": [
+            "simplicity"
         ]
     },
     "פּשיטא": {
@@ -41768,6 +42525,17 @@
         ],
         "eng": [
             "United States"
+        ]
+    },
+    "פֿאַרײַניקטע נאַציעס": {
+        "_pos": [
+            "(.)"
+        ],
+        "_pro": [
+            "far·eyn'·ik·teh nats'·yes"
+        ],
+        "eng": [
+            "United Nations"
         ]
     },
     "פֿאַרלאַג": {
@@ -42817,6 +43585,18 @@
             "trip"
         ]
     },
+    "פֿאָרגעפֿיל": {
+        "_pos": [
+            "n"
+        ],
+        "_pro": [
+            "for'·geh·feel",
+            "foor'·geh·feel"
+        ],
+        "eng": [
+            "premonition"
+        ]
+    },
     "פֿאָרװאָס נישט or פֿאַר װאָס נישט": {
         "_pos": [
             "adv"
@@ -42982,6 +43762,15 @@
             "show",
             "concept",
             "conception"
+        ]
+    },
+    "פֿאָרשן": {
+        "_pos": [
+            "n"
+        ],
+        "_pro": [],
+        "eng": [
+            "study"
         ]
     },
     "פֿאָרשער": {
@@ -43650,15 +44439,15 @@
     },
     "פֿיר": {
         "_pos": [
-            "m",
-            "(number)"
+            "(number)",
+            "m"
         ],
         "_pro": [
             "feer"
         ],
         "eng": [
-            "practice (custom)",
-            "four"
+            "four",
+            "practice (custom)"
         ]
     },
     "פֿירהאַנג": {
@@ -44315,22 +45104,22 @@
     },
     "פֿעלן": {
         "_pos": [
-            "(v.)",
-            "n"
+            "n",
+            "(v.)"
         ],
         "_pro": [
+            "feyl'∙n",
             "fey'·ln",
-            "fey'∙len",
-            "feyl'∙n"
+            "fey'∙len"
         ],
         "eng": [
+            "absence",
             "lack",
             "want",
             "be short of",
             "be missing",
             "be lacking",
-            "be absent",
-            "absence"
+            "be absent"
         ]
     },
     "פֿעלער": {
@@ -44363,7 +45152,9 @@
             "fen'·dl"
         ],
         "eng": [
-            "saucepan"
+            "saucepan",
+            "pot",
+            "penant"
         ]
     },
     "פֿעפֿער": {
@@ -45172,6 +45963,16 @@
             "accessible"
         ]
     },
+    "צוטשעפּעניש": {
+        "_pos": [
+            "n"
+        ],
+        "_pro": [],
+        "eng": [
+            "nuisance",
+            "pest"
+        ]
+    },
     "צוטשעפּען": {
         "_pos": [
             "(v.)"
@@ -45628,6 +46429,15 @@
             "offer"
         ]
     },
+    "צושמידן": {
+        "_pos": [
+            "(v.)"
+        ],
+        "_pro": [],
+        "eng": [
+            "nail to the spot"
+        ]
+    },
     "צושפּילן": {
         "_pos": [
             "(v.)"
@@ -45935,6 +46745,15 @@
             "branch"
         ]
     },
+    "צװײַגל": {
+        "_pos": [
+            "n"
+        ],
+        "_pro": [],
+        "eng": [
+            "twig"
+        ]
+    },
     "צװעלף": {
         "_pos": [
             "(num.)"
@@ -45942,6 +46761,16 @@
         "_pro": [],
         "eng": [
             "twelve"
+        ]
+    },
+    "צװענגל": {
+        "_pos": [
+            "n"
+        ],
+        "_pro": [],
+        "eng": [
+            "pliers (small)",
+            "tongs (small)"
         ]
     },
     "צװעקן": {
@@ -45994,6 +46823,17 @@
         ],
         "eng": [
             "onion"
+        ]
+    },
+    "ציבעלע פּלעצל": {
+        "_pos": [
+            "n"
+        ],
+        "_pro": [
+            "tsi'∙be∙leh plets'∙l"
+        ],
+        "eng": [
+            "onion roll"
         ]
     },
     "ציג": {
@@ -46051,6 +46891,17 @@
         ],
         "eng": [
             "Zionist"
+        ]
+    },
+    "ציון": {
+        "_pos": [
+            "n"
+        ],
+        "_pro": [
+            "tsee'·en"
+        ],
+        "eng": [
+            "Zion"
         ]
     },
     "ציװיל": {
@@ -46216,6 +47067,15 @@
         "eng": [
             "light",
             "kindle"
+        ]
+    },
+    "צינק": {
+        "_pos": [
+            "n"
+        ],
+        "_pro": [],
+        "eng": [
+            "zinc"
         ]
     },
     "ציען": {
@@ -47103,6 +47963,15 @@
             "receipt"
         ]
     },
+    "קבלת־פּנים": {
+        "_pos": [
+            "n"
+        ],
+        "_pro": [],
+        "eng": [
+            "welcome"
+        ]
+    },
     "קבֿר": {
         "_pos": [
             "m"
@@ -47869,6 +48738,16 @@
             "ness (-ness)"
         ]
     },
+    "קײנער": {
+        "_pos": [
+            "(pron.)"
+        ],
+        "_pro": [],
+        "eng": [
+            "no one",
+            "nobody"
+        ]
+    },
     "קײן": {
         "_pos": [
             "(prep.)",
@@ -48001,6 +48880,15 @@
             "rap",
             "smack",
             "hit"
+        ]
+    },
+    "קלאַפּער־געצײַג": {
+        "_pos": [
+            "n"
+        ],
+        "_pro": [],
+        "eng": [
+            "paraphernalia"
         ]
     },
     "קלאָג": {
@@ -49357,6 +50245,15 @@
             "roster"
         ]
     },
+    "רכילות": {
+        "_pos": [
+            "n"
+        ],
+        "_pro": [],
+        "eng": [
+            "slander"
+        ]
+    },
     "רעב": {
         "_pos": [
             "(title)"
@@ -50034,6 +50931,17 @@
             "guilty"
         ]
     },
+    "שולװעזנס": {
+        "_pos": [
+            "n"
+        ],
+        "_pro": [
+            "shul'·vez·n"
+        ],
+        "eng": [
+            "school system"
+        ]
+    },
     "שולחן־ערוך": {
         "_pos": [
             "m"
@@ -50143,6 +51051,15 @@
         ],
         "eng": [
             "Hebrew vowel point shuruk"
+        ]
+    },
+    "שותּפֿות": {
+        "_pos": [
+            "n"
+        ],
+        "_pro": [],
+        "eng": [
+            "partnership"
         ]
     },
     "שותּף": {
@@ -50647,6 +51564,15 @@
             "sting"
         ]
     },
+    "שטאָל": {
+        "_pos": [
+            "n"
+        ],
+        "_pro": [],
+        "eng": [
+            "steel"
+        ]
+    },
     "שטאָלן": {
         "_pos": [
             "adj"
@@ -51092,21 +52018,21 @@
     },
     "שטײן": {
         "_pos": [
-            "m",
-            "(v.)"
+            "(v.)",
+            "m"
         ],
         "_pro": [
-            "shteyn",
-            "shtayn",
             "shtey'∙n",
-            "shtay'∙n"
+            "shtay'∙n",
+            "shteyn",
+            "shtayn"
         ],
         "eng": [
-            "stone",
-            "rock",
             "stand (something in position)",
             "be written",
-            "stop (clock)"
+            "stop (clock)",
+            "stone",
+            "rock"
         ]
     },
     "שטײענדיק": {
@@ -51154,6 +52080,19 @@
         "_pro": [],
         "eng": [
             "path"
+        ]
+    },
+    "שטעטל": {
+        "_pos": [
+            "n"
+        ],
+        "_pro": [
+            "shtet'∙l",
+            "shteyt'∙l"
+        ],
+        "eng": [
+            "small town",
+            "village"
         ]
     },
     "שטעטלדיק": {
@@ -51265,6 +52204,18 @@
         "_pro": [],
         "eng": [
             "stick"
+        ]
+    },
+    "שטעקעל": {
+        "_pos": [
+            "n"
+        ],
+        "_pro": [
+            "shtek'·el"
+        ],
+        "eng": [
+            "stick",
+            "wand"
         ]
     },
     "שטעקשוך": {
@@ -51546,6 +52497,15 @@
         "eng": [
             "drunk",
             "drunkard"
+        ]
+    },
+    "שיכעלע": {
+        "_pos": [
+            "n"
+        ],
+        "_pro": [],
+        "eng": [
+            "small shoe"
         ]
     },
     "שיכפּוצער": {
@@ -51834,6 +52794,18 @@
             "connection",
             "matter",
             "relevance"
+        ]
+    },
+    "שײַנדל": {
+        "_pos": [
+            "n"
+        ],
+        "_pro": [
+            "shayn'∙dl",
+            "shaan'∙dl"
+        ],
+        "eng": [
+            "ornament"
         ]
     },
     "שײַנטורעם": {
@@ -52230,19 +53202,19 @@
     },
     "שלימזל": {
         "_pos": [
-            "m",
-            "n"
+            "n",
+            "m"
         ],
         "_pro": [
             "shli∙maaz'∙l"
         ],
         "eng": [
+            "bad luck",
+            "misfortune",
             "unlucky person",
             "luckless person",
             "person with perpetual bad luck",
-            "clumsy person",
-            "bad luck",
-            "misfortune"
+            "clumsy person"
         ]
     },
     "שלימזלניק": {
@@ -52374,6 +53346,17 @@
         "eng": [
             "wrongdoing",
             "evil"
+        ]
+    },
+    "שלעסל": {
+        "_pos": [
+            "n"
+        ],
+        "_pro": [
+            "shles'∙l"
+        ],
+        "eng": [
+            "zipper"
         ]
     },
     "שלעפּ": {
@@ -52539,6 +53522,17 @@
         "_pro": [],
         "eng": [
             "narrow"
+        ]
+    },
+    "שמאָנצעס": {
+        "_pos": [
+            "(.)"
+        ],
+        "_pro": [
+            "shmon'∙tses"
+        ],
+        "eng": [
+            "nonsense"
         ]
     },
     "שמאָק": {
@@ -53480,6 +54474,26 @@
             "sewing pin"
         ]
     },
+    "שפּינװעבס": {
+        "_pos": [
+            "n"
+        ],
+        "_pro": [],
+        "eng": [
+            "spider web"
+        ]
+    },
+    "שפּינװעבעכץ": {
+        "_pos": [
+            "n"
+        ],
+        "_pro": [
+            "shpin'·veb·ekts"
+        ],
+        "eng": [
+            "spider web"
+        ]
+    },
     "שפּיציק": {
         "_pos": [
             "adj"
@@ -53682,6 +54696,15 @@
             "plunge"
         ]
     },
+    "שפּריכװאָרט": {
+        "_pos": [
+            "n"
+        ],
+        "_pro": [],
+        "eng": [
+            "proverb"
+        ]
+    },
     "שפּריצן": {
         "_pos": [
             "(v.)"
@@ -53722,6 +54745,15 @@
         "_pro": [],
         "eng": [
             "enslave"
+        ]
+    },
+    "שקלאַפֿערײַ": {
+        "_pos": [
+            "n"
+        ],
+        "_pro": [],
+        "eng": [
+            "slavery"
         ]
     },
     "שקלאַף": {
@@ -54241,6 +55273,17 @@
             "Jewish scholar"
         ]
     },
+    "תּל־אָבֿיבֿ": {
+        "_pos": [
+            "n"
+        ],
+        "_pro": [
+            "tel·a·veev'"
+        ],
+        "eng": [
+            "Tel Aviv"
+        ]
+    },
     "תּמיד": {
         "_pos": [
             "adv"
@@ -54248,6 +55291,15 @@
         "_pro": [],
         "eng": [
             "always"
+        ]
+    },
+    "תּמימות": {
+        "_pos": [
+            "n"
+        ],
+        "_pro": [],
+        "eng": [
+            "naivete"
         ]
     },
     "תּמימותדיק": {
@@ -54306,8 +55358,8 @@
         ],
         "_pro": [],
         "eng": [
-            "Jewish Diaspora",
-            "The Jewish Diaspora"
+            "The Jewish Diaspora",
+            "Jewish Diaspora"
         ]
     },
     "תּפֿילה": {
