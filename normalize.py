@@ -49,6 +49,13 @@ def replace_pos(entry):
         new_entry['_pos'].append(new_pos)
     return new_entry
 
+def remove_duplicates(entry):
+    new_entry = {}
+    new_entry['eng'] = list(OrderedDict.fromkeys(entry['eng']))
+    new_entry['_pro'] = list(OrderedDict.fromkeys(entry['_pro']))
+    new_entry['_pos'] = list(OrderedDict.fromkeys(entry['_pos']))
+    return new_entry
+
 def order_entry(entry):
     return OrderedDict(sorted(entry.items(), key=lambda i: i[0]))
 
@@ -61,6 +68,7 @@ def normalize(input, output):
     for yiddish in d:
         new_yiddish = replace_combining_chars(yiddish)
         new_entry = replace_pos(d[yiddish])
+        new_entry = remove_duplicates(new_entry)
         if new_yiddish not in new_d:
             new_d[new_yiddish] = order_entry(new_entry)
         else:
