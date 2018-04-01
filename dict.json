@@ -17813,16 +17813,16 @@
     },
     "גיך": {
         "_pos": [
+            "adv",
             "adj",
-            "f",
-            "adv"
+            "f"
         ],
         "_pro": [],
         "eng": [
+            "quickly",
             "fast",
             "quick",
-            "speed",
-            "quickly"
+            "speed"
         ]
     },
     "גילגול": {
@@ -33673,16 +33673,16 @@
     },
     "לענגער": {
         "_pos": [
-            "adj",
-            "adv"
+            "adv",
+            "adj"
         ],
         "_pro": [
             "leng'·er"
         ],
         "eng": [
+            "quite some time ago",
             "extended",
-            "long",
-            "quite some time ago"
+            "long"
         ]
     },
     "לענד": {
@@ -46366,6 +46366,17 @@
             "fresh"
         ]
     },
+    "צאַפּלן זיך": {
+        "_pos": [
+            "(v.)"
+        ],
+        "_pro": [],
+        "eng": [
+            "squirm",
+            "wriggle",
+            "quiver"
+        ]
+    },
     "צאַצקע": {
         "_pos": [
             "f"
@@ -52725,9 +52736,9 @@
         ],
         "_pro": [],
         "eng": [
-            "still",
             "quiet",
-            "soft"
+            "soft",
+            "still"
         ]
     },
     "שטילקײט": {
