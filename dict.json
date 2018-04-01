@@ -1343,6 +1343,15 @@
             "university"
         ]
     },
+    "אוניקאָד": {
+        "_pos": [
+            "(.)"
+        ],
+        "_pro": [],
+        "eng": [
+            "unicode"
+        ]
+    },
     "און": {
         "_pos": [
             "(conj.)"
@@ -1456,6 +1465,15 @@
             "Ukrainian"
         ]
     },
+    "אוקראַינער, אוקרײַנער": {
+        "_pos": [
+            "(.)"
+        ],
+        "_pro": [],
+        "eng": [
+            "Ukrainian (person)"
+        ]
+    },
     "אוקראַין, אוקרײַן": {
         "_pos": [
             "name"
@@ -1474,6 +1492,17 @@
         ],
         "eng": [
             "ancient"
+        ]
+    },
+    "אורוגװײַ": {
+        "_pos": [
+            "(.)"
+        ],
+        "_pro": [
+            "oor'∙oog∙vay"
+        ],
+        "eng": [
+            "Uruguay"
         ]
     },
     "אורח": {
@@ -2526,6 +2555,18 @@
             "outside"
         ]
     },
+    "אױסניצן": {
+        "_pos": [
+            "(v.)"
+        ],
+        "_pro": [],
+        "eng": [
+            "use",
+            "make use of",
+            "utilize",
+            "take advantage of"
+        ]
+    },
     "אױסנעמען": {
         "_pos": [
             "(v.)"
@@ -3487,6 +3528,16 @@
             "light up"
         ]
     },
+    "אױפֿשרױפֿן": {
+        "_pos": [
+            "(v.)"
+        ],
+        "_pro": [],
+        "eng": [
+            "unscrew",
+            "upset (something)"
+        ]
+    },
     "אױפֿשריפֿט": {
         "_pos": [
             "f"
@@ -3498,22 +3549,22 @@
     },
     "אױף": {
         "_pos": [
-            "(adj. predicate)",
-            "(prep.)"
+            "(prep.)",
+            "(adj. predicate)"
         ],
         "_pro": [
             "af",
             "oyf"
         ],
         "eng": [
-            "awake (up)",
             "on",
             "upon",
             "in (a language)",
             "at (occasion)",
             "by (unit",
             "multiplication: for (a time",
-            "a purpose)"
+            "a purpose)",
+            "awake (up)"
         ]
     },
     "אױף אײביק": {
@@ -14439,9 +14490,9 @@
             "boh'∙ikh"
         ],
         "eng": [
-            "tummy",
             "abdomen",
-            "belly"
+            "belly",
+            "tummy"
         ]
     },
     "בױמל": {
@@ -22119,6 +22170,18 @@
             "maintain"
         ]
     },
+    "דערהײַנטיקן": {
+        "_pos": [
+            "(v.)"
+        ],
+        "_pro": [
+            "der·haynt'·ik·n",
+            "der·haant'·ik·n"
+        ],
+        "eng": [
+            "update"
+        ]
+    },
     "דערהערן": {
         "_pos": [
             "(v.)"
@@ -24058,8 +24121,8 @@
             "hit'·l"
         ],
         "eng": [
-            "woman's hat",
-            "loaf (of sugar)"
+            "loaf (of sugar)",
+            "woman's hat"
         ]
     },
     "היטן": {
@@ -26754,6 +26817,18 @@
         "_pro": [],
         "eng": [
             "flurry"
+        ]
+    },
+    "װעבאַדרעס": {
+        "_pos": [
+            "m"
+        ],
+        "_pro": [
+            "veb'∙ad∙res"
+        ],
+        "eng": [
+            "web address",
+            "URL"
         ]
     },
     "װעבבלאַט": {
@@ -39806,6 +39881,15 @@
             "useful"
         ]
     },
+    "ניצן": {
+        "_pos": [
+            "(v.)"
+        ],
+        "_pro": [],
+        "eng": [
+            "use"
+        ]
+    },
     "ניקאָטין": {
         "_pos": [
             "m"
@@ -42794,12 +42878,12 @@
             "m"
         ],
         "_pro": [
-            "plit",
-            "poh'·let"
+            "poh'·let",
+            "plit"
         ],
         "eng": [
-            "raft",
-            "refugee"
+            "refugee",
+            "raft"
         ]
     },
     "פּליכעװאַט": {
@@ -43624,6 +43708,18 @@
         ],
         "eng": [
             "united"
+        ]
+    },
+    "פֿאַראײניקן": {
+        "_pos": [
+            "(v.)"
+        ],
+        "_pro": [
+            "far·eyn'·ik·n",
+            "far·ayn'·ik·n"
+        ],
+        "eng": [
+            "unite"
         ]
     },
     "פֿאַראַנטװאָרטלעך": {
@@ -45283,6 +45379,17 @@
         ],
         "eng": [
             "understandably"
+        ]
+    },
+    "פֿאַרשטענדעניש": {
+        "_pos": [
+            "(.)"
+        ],
+        "_pro": [
+            "far·shtend'·en·ish"
+        ],
+        "eng": [
+            "understanding"
         ]
     },
     "פֿאַרשטערן": {
@@ -55707,19 +55814,19 @@
     },
     "שלימזל": {
         "_pos": [
-            "n",
-            "m"
+            "m",
+            "n"
         ],
         "_pro": [
             "shli∙maaz'∙l"
         ],
         "eng": [
-            "bad luck",
-            "misfortune",
             "unlucky person",
             "luckless person",
             "person with perpetual bad luck",
-            "clumsy person"
+            "clumsy person",
+            "bad luck",
+            "misfortune"
         ]
     },
     "שלימזלניק": {
