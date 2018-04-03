@@ -21,8 +21,6 @@ warnings = 0
 
 def fail(msg):
     print(msg, file=sys.stderr)
-    print()
-    print('This file is not valid :(')
     sys.exit(1)
 
 def error(msg, line):
