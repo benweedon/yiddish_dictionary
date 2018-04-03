@@ -14,6 +14,8 @@ if os.name == 'nt':
     handle = ctypes.windll.kernel32.GetStdHandle(-11)
     ctypes.windll.kernel32.SetConsoleMode(handle, 7)
 
+num_lines = None
+
 errors = 0
 warnings = 0
 
@@ -24,12 +26,14 @@ def fail(msg):
     sys.exit(1)
 
 def error(msg, line):
-    print('{}: \033[91m{}\033[0m'.format(line, msg), file=sys.stderr)
+    width = len(str(num_lines))
+    print('{:>{width}}: \033[91m{}\033[0m'.format(line, msg, width=width), file=sys.stderr)
     global errors
     errors += 1
 
 def warn(msg, line):
-    print('{}: \033[93m{}\033[0m'.format(line, msg), file=sys.stderr)
+    width = len(str(num_lines))
+    print('{:>{width}}: \033[93m{}\033[0m'.format(line, msg, width=width), file=sys.stderr)
     global warnings
     warnings += 1
 
@@ -48,7 +52,11 @@ def validate_no_punctuation(yiddish, line):
 if __name__ == '__main__':
     output = io.StringIO()
     with open(sys.argv[1], encoding='utf-8') as f:
+        # get the number of lines in the file
+        num_lines = sum(1 for line in f)
+
         # check that the file is normalized
+        f.seek(0)
         normalize(f, output)
         f.seek(0)
         fileContents = f.read()
