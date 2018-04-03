@@ -9,13 +9,25 @@ $entry = @{}
 $yiddish = (($r.AllElements | where {$_.Class -eq 'lemma'} | select -ExpandProperty innerHTML) -split '<',2)[0].Trim()
 
 $pronunciation = $r.AllElements | where {$_.Class -eq 'pron'} | select -ExpandProperty innerText
-$pronunciation = $pronunciation.Substring(2, $pronunciation.Length-4)
-$pronunciation = $pronunciation.Split('/') | % {$_.Trim()}
+if ($pronunciation -ne $null) {
+    $pronunciation = $pronunciation.Substring(2, $pronunciation.Length-4)
+    $pronunciation = $pronunciation.Split('/') | % {$_.Trim()}
+} else {
+    $pronunciation = @()
+}
 $entry['_pro'] = $pronunciation
 
 $pos = ($r.AllElements | where {$_.Class -eq 'help'} | select -ExpandProperty innerText).Trim()
-if ($pos -eq 'masculine noun') {
-    $pos = 'm'
+$pos = @($pos) | % {
+    if ($_ -eq 'masculine noun') {
+        'm'
+    } elseif ($_ -eq 'adjective') {
+        'adj'
+    } elseif ($_ -eq 'adverb') {
+        'adv'
+    } else {
+        $_
+    }
 }
 $entry['_pos'] = $pos
 
