@@ -28,9 +28,7 @@ def replace_combining_chars(s):
     return s
 
 def replace_pos(entry):
-    new_entry = {}
-    new_entry['eng'] = entry['eng']
-    new_entry['_pro'] = entry['_pro']
+    new_entry = entry.copy()
     new_entry['_pos'] = []
     for pos in entry['_pos']:
         new_pos = pos
@@ -54,6 +52,7 @@ def remove_duplicates(entry):
     new_entry['eng'] = list(OrderedDict.fromkeys(entry['eng']))
     new_entry['_pro'] = list(OrderedDict.fromkeys(entry['_pro']))
     new_entry['_pos'] = list(OrderedDict.fromkeys(entry['_pos']))
+    new_entry['_src'] = list(OrderedDict.fromkeys(entry['_src']))
     return new_entry
 
 def order_entry(entry):

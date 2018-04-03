@@ -14,6 +14,9 @@ if os.name == 'nt':
     handle = ctypes.windll.kernel32.GetStdHandle(-11)
     ctypes.windll.kernel32.SetConsoleMode(handle, 7)
 
+with open('sources.json', encoding='utf-8') as f:
+    sources = json.load(f)
+
 num_lines = None
 
 errors = 0
@@ -36,11 +39,26 @@ def warn(msg, line):
     warnings += 1
 
 def get_line_increment(entry):
-    lines = 5
-    for key in ['_pro', '_pos', 'eng']:
+    lines = 6
+    for key in ['_pos', '_pro', '_src', 'eng']:
         if len(entry[key]) > 0:
             lines += 1 + len(entry[key])
     return lines
+
+def validate_sources(entry, line):
+    global sources
+    line += 3
+    if len(entry['_pos']) > 0:
+        line += 1 + len(entry['_pos'])
+    if len(entry['_pro']) > 0:
+        line += 1 + len(entry['_pro'])
+    if ('_src' not in entry) or (len(entry['_src'])==0):
+        error('Entry does not have a source', line)
+    else:
+        for src in entry['_src']:
+            line += 1
+            if src not in sources:
+                error('Source is not listed in sources.json', line)
 
 def validate_no_punctuation(yiddish, line):
     punctuation = r'[`~!@#$%^&*()\-_+={}[\]\\|;:''"<>,./?־\u2000-\u206F\u2E00-\u2E7F]';
@@ -70,6 +88,7 @@ if __name__ == '__main__':
         line = 2
         for yiddish in d:
             validate_no_punctuation(yiddish, line)
+            validate_sources(d[yiddish], line)
             line += get_line_increment(d[yiddish])
 
     if errors > 0 or warnings > 0:

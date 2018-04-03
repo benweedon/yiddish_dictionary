@@ -31,6 +31,8 @@ $pos = @($pos) | % {
 }
 $entry['_pos'] = $pos
 
+$entry['_src'] = @('ver')
+
 $eng = ($r.AllElements | where {$_.Class -eq 'gloss'} | select -ExpandProperty innerText).Trim()
 $entry['eng'] = @($eng)
 

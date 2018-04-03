@@ -5,6 +5,7 @@ def combine_entries(entry1, entry2):
     new_entry['eng'] = list(OrderedDict.fromkeys(entry1['eng'] + entry2['eng']))
     new_entry['_pro'] = list(OrderedDict.fromkeys(entry1['_pro'] + entry2['_pro']))
     new_entry['_pos'] = list(OrderedDict.fromkeys(entry1['_pos'] + entry2['_pos']))
+    new_entry['_src'] = list(OrderedDict.fromkeys(entry1['_src'] + entry2['_src']))
     return new_entry
 
 def sort_yiddish(yiddish):

@@ -46,7 +46,7 @@ foreach ($tr in $html.ChildNodes[0].ChildNodes) {
         $pos = @($pos)
     }
 
-    $entry = @{eng=$english; _pro=$pronunciation; _pos=$pos}
+    $entry = @{eng=$english; _pro=$pronunciation; _pos=$pos, _src=@('ydo')}
     if (!$dict.ContainsKey($yiddish)) {
         $dict[$yiddish] = $entry
     } else {
