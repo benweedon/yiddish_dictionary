@@ -2,10 +2,17 @@ from collections import OrderedDict
 import io
 import json
 from normalize import normalize
+import os
 import re
 import sys
 
 import utils
+
+# if running on Windows, enable ANSI control sequences
+if os.name == 'nt':
+    import ctypes
+    handle = ctypes.windll.kernel32.GetStdHandle(-11)
+    ctypes.windll.kernel32.SetConsoleMode(handle, 7)
 
 errors = 0
 warnings = 0
@@ -17,12 +24,12 @@ def fail(msg):
     sys.exit(1)
 
 def error(msg, line):
-    print('{}: {}'.format(line, msg), file=sys.stderr)
+    print('{}: \033[91m{}\033[0m'.format(line, msg), file=sys.stderr)
     global errors
     errors += 1
 
 def warn(msg, line):
-    print('{}: {}'.format(line, msg), file=sys.stderr)
+    print('{}: \033[93m{}\033[0m'.format(line, msg), file=sys.stderr)
     global warnings
     warnings += 1
 
