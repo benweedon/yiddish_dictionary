@@ -54,6 +54,6 @@ foreach ($tr in $html.ChildNodes[0].ChildNodes) {
     }
 }
 
-Write-Output "" > $OutputFile
+Write-Output '' > $OutputFile
 $outFile = Resolve-Path $OutputFile
 [System.IO.File]::WriteAllLines($outFile, (ConvertTo-Json $dict))
