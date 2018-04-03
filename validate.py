@@ -59,10 +59,10 @@ if __name__ == '__main__':
             validate_no_punctuation(yiddish, line)
             line += get_line_increment(d[yiddish])
 
-    print()
+    if errors > 0 or warnings > 0:
+        print()
+
+    print('errors: {}, warnings: {}'.format(errors, warnings));
+
     if errors > 0:
-        fail('ERRORS!')
-    elif warnings > 0:
-        print('This file has warnings, but no errors!')
-    else:
-        print('This file is valid! :)')
+        fail('Dictionary is not valid.')
