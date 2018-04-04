@@ -3,6 +3,8 @@ from collections import OrderedDict
 def combine_entries(entry1, entry2):
     new_entry = {}
     new_entry['eng'] = list(OrderedDict.fromkeys(entry1['eng'] + entry2['eng']))
+    if ('fra' in entry1) or ('fra' in entry2):
+        new_entry['fra'] = list(OrderedDict.fromkeys(entry1.get('fra', []) + entry2.get('fra', [])))
     new_entry['_pro'] = list(OrderedDict.fromkeys(entry1['_pro'] + entry2['_pro']))
     new_entry['_pos'] = list(OrderedDict.fromkeys(entry1['_pos'] + entry2['_pos']))
     new_entry['_src'] = list(OrderedDict.fromkeys(entry1['_src'] + entry2['_src']))

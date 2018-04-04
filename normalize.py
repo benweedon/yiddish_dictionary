@@ -50,6 +50,8 @@ def replace_pos(entry):
 def remove_duplicates(entry):
     new_entry = {}
     new_entry['eng'] = list(OrderedDict.fromkeys(entry['eng']))
+    if 'fra' in entry:
+        new_entry['fra'] = list(OrderedDict.fromkeys(entry['fra']))
     new_entry['_pro'] = list(OrderedDict.fromkeys(entry['_pro']))
     new_entry['_pos'] = list(OrderedDict.fromkeys(entry['_pos']))
     new_entry['_src'] = list(OrderedDict.fromkeys(entry['_src']))

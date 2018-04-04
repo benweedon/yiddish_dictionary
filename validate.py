@@ -39,10 +39,12 @@ def warn(msg, line):
     warnings += 1
 
 def get_line_increment(entry):
-    lines = 6
-    for key in ['_pos', '_pro', '_src', 'eng']:
-        if len(entry[key]) > 0:
-            lines += 1 + len(entry[key])
+    lines = 2
+    for key in ['_pos', '_pro', '_src', 'eng', 'fra']:
+        if key in entry:
+            lines += 1
+            if len(entry[key]) > 0:
+                lines += 1 + len(entry[key])
     return lines
 
 def validate_sources(entry, line):

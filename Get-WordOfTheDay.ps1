@@ -2,7 +2,7 @@
     [String]$OutputFile
 )
 
-$r = Invoke-WebRequest 'http://verterbukh.org/vb?page=wdmin'
+$r = Invoke-WebRequest 'http://verterbukh.org/vb?page=wdmin&tsu=en'
 
 $entry = @{}
 
@@ -35,6 +35,10 @@ $entry['_src'] = @('ver')
 
 $eng = ($r.AllElements | where {$_.Class -eq 'gloss'} | select -ExpandProperty innerText).Trim()
 $entry['eng'] = @($eng)
+
+$frenchR = Invoke-WebRequest 'http://verterbukh.org/vb?page=wdmin&tsu=fr'
+$fra = ($frenchR.AllElements | where {$_.Class -eq 'gloss'} | select -ExpandProperty innerText).Trim()
+$entry['fra'] = @($fra)
 
 $dict = @{$yiddish=$entry}
 
