@@ -1,12 +1,14 @@
 language: python
 python: '3.6'
 script: python validate.py dict.json
-before_deploy: python minimize.py dict.json min.json
+before_deploy:
+  - mkdir _build
+  - python minimize.py dict.json _build/min.json
 deploy:
-  provider: releases
-  api_key:
+  provider: pages
+  github_token:
     secure: GWqQjtQ6fOY71IXC5E9wyNWu+UikqfoxBFw98NKQizeinREBjgm3jfXoYCCbFYNLXL46GhQVdpttslo9OpNonunGF0N9TY1ma8fVKh27qXm+JJoMSju7/5g/WEa1V/S5ZqmMM71RDSA9Mg4o/k83mjv+o808byMFk/wFZ+c8tQmqqV3AH15JPNFk8ksp2hZH1nYtkR2n7n1ShJ/fGG8GhzfQufHLbNcoB+tXuVrFQoQ+AmcLRwHHFXeCDfs3uMq75F+BBOf1TXNEbI752tlyMfsJUSKT5awpMTffwknhHHuGjKVm2yRH7KcA6snX7Nha8YgoGchf5+XNOduhptOOWYG/BBA2cJ7/lHDCbY7lxW1s7hdAKqXjTOVYVqFyn3SIS/zEg+C63SMwEdocoZ662u4b0fyIOwBtK6HE3yBbLI5SJlWh/ST7zNi+PARkjpSN3eH+LVczd0YapjZ5utpNfhh0Af0K6r7yrzMbhnMgPrUQuNRUkQZTErE9Rr/Tovq/9uniD5+Nvg4WAfyZqS9OG+9m05vMgrV3PNMsmQuFnDISwI34KlglFLkDgoJyRVbFdxt5XR2oxK5na8+MhMiykDAxoWY0fKTgrkxFDabj/HiPzpnjdZ/9keySM/UrBk8Yb198vLcgKxbzkZibD0QFcE6C5cagNcOaQYd2HNovhhA=
-  file: min.json
+  local_dir: _build
   skip_cleanup: true
   on:
     repo: benweedon/yiddish_dictionary
