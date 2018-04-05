@@ -19,7 +19,9 @@ $entry['_pro'] = @($pronunciation)
 
 $pos = ($r.AllElements | where {$_.Class -eq 'help'} | select -ExpandProperty innerText).Trim()
 $pos = @($pos) | % {
-    if ($_ -eq 'masculine noun') {
+    if ($_ -eq 'feminine noun') {
+        'f'
+    } elseif ($_ -eq 'masculine noun') {
         'm'
     } elseif ($_ -eq 'adjective') {
         'adj'
