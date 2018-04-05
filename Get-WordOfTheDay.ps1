@@ -15,7 +15,7 @@ if ($pronunciation -ne $null) {
 } else {
     $pronunciation = @()
 }
-$entry['_pro'] = $pronunciation
+$entry['_pro'] = @($pronunciation)
 
 $pos = ($r.AllElements | where {$_.Class -eq 'help'} | select -ExpandProperty innerText).Trim()
 $pos = @($pos) | % {
@@ -29,7 +29,7 @@ $pos = @($pos) | % {
         $_
     }
 }
-$entry['_pos'] = $pos
+$entry['_pos'] = @($pos)
 
 $entry['_src'] = @('ver')
 
