@@ -3,7 +3,8 @@ python: '3.6'
 script: python validate.py dict.json
 before_deploy:
   - mkdir _build
-  - python minimize.py dict.json _build/min.json
+  - python minimize.py dict.json _build/dict.min.json
+  - python minimize.py sources.json _build/sources.min.json
 deploy:
   provider: pages
   github_token:
